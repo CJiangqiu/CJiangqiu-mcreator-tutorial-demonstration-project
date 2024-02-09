@@ -1,0 +1,41 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 425,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_fake_and_true",
+          "image": "fake_and_true.png",
+          "hoveredImage": "",
+          "x": 80,
+          "y": 104
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "scroll1.png",
+          "use1Xscale": true,
+          "x": 0,
+          "y": 17
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

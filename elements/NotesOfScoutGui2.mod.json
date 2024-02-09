@@ -1,0 +1,241 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "notes.png",
+          "use1Xscale": false,
+          "x": 52,
+          "y": -162
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_when_we_entered_there_i_saw_som",
+          "text": {
+            "fixedValue": "When we entered there, I saw something I had never seen in "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 63,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_my_life_i_turned_my_head_and_ra",
+          "text": {
+            "fixedValue": "my life, I turned my head and ran, my duty as an"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 63,
+          "y": 17
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_imperial_scoutis_not_to_fight_w",
+          "text": {
+            "fixedValue": " imperial scoutis not to fight with that thing, just to"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 58,
+          "y": 27
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_just_to_quickly_pass_this_inform",
+          "text": {
+            "fixedValue": " quickly pass this information back, "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 57,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_be_resolvedwhen_i_ran_with_thi",
+          "text": {
+            "fixedValue": "Suddenly,a scream came from behind,"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 62,
+          "y": 48
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_came_from_behind_and_then_my_ch",
+          "text": {
+            "fixedValue": "and then my chain armor was completely"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 63,
+          "y": 59
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_shattered",
+          "text": {
+            "fixedValue": " shattered, my body was hit by something, it seems that"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 58,
+          "y": 69
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_thing_that_parasitized_me_dr",
+          "text": {
+            "fixedValue": "the thing that parasitized me drilled into my body "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 62,
+          "y": 82
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_at_this_time",
+          "text": {
+            "fixedValue": "at this time,  my eyelids are getting heavier and heavier… "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 58,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_may_i_be_blessed_no_matter_whic",
+          "text": {
+            "fixedValue": "May I be blessed, no matter which god, I don’t want to"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 63,
+          "y": 101
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_become_a_monster",
+          "text": {
+            "fixedValue": " become a monster… \""
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 59,
+          "y": 112
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_handwriting_ends_here",
+          "text": {
+            "fixedValue": " (The handwriting ends here)"
+          },
+          "color": {
+            "value": -10092544,
+            "falpha": 0.0
+          },
+          "x": 140,
+          "y": 130
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_this_is_too_scary",
+          "text": "This is too scary...",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "NotesOfScoutGuiButton1"
+          },
+          "width": 129,
+          "height": 20,
+          "x": 152,
+          "y": 164
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_thank_you_for_your_message_sol",
+          "text": " Thank you for your message, soldier",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "NotesOfScoutGuiButton2"
+          },
+          "width": 212,
+          "height": 20,
+          "x": 112,
+          "y": 189
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

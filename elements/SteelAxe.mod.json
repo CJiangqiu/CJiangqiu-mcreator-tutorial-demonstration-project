@@ -1,0 +1,37 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "steel_axe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Steel Axe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:EpicJourney"
+    },
+    "harvestLevel": 2,
+    "efficiency": 7.0,
+    "attackSpeed": 0.9,
+    "enchantability": 15,
+    "damageVsEntity": 9.5,
+    "usageCount": 441,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:SteelIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

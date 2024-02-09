@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Bellwether",
+    "achievementDescription": "Use the Shepherd's Staff to gather animals",
+    "achievementIcon": {
+      "value": "CUSTOM:ShepherdsStaff"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 5,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:ShepherdStaffAdvancement"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"183\" y=\"214\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

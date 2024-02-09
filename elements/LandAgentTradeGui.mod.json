@@ -1,0 +1,283 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 220,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_30",
+          "text": {
+            "fixedValue": "30"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 38
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "copper_coin.png",
+          "use1Xscale": false,
+          "x": 148,
+          "y": 33
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 168,
+          "y": 31
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow.png",
+          "use1Xscale": true,
+          "x": 187,
+          "y": 33
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 168,
+          "y": 54
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 168,
+          "y": 78
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 223,
+          "y": 31
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 223,
+          "y": 54
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 223,
+          "y": 77
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_6",
+          "text": {
+            "fixedValue": "6"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 139,
+          "y": 61
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "silver_coin.png",
+          "use1Xscale": false,
+          "x": 148,
+          "y": 56
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow.png",
+          "use1Xscale": true,
+          "x": 187,
+          "y": 56
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_14",
+          "text": {
+            "fixedValue": "14"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 84
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "silver_coin.png",
+          "use1Xscale": false,
+          "x": 148,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow.png",
+          "use1Xscale": true,
+          "x": 187,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "small_sized_wooden_house.png",
+          "use1Xscale": false,
+          "x": 204,
+          "y": 33
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "medium_sized_wooden_house.png",
+          "use1Xscale": false,
+          "x": 205,
+          "y": 55
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "big_sized_wooden_house.png",
+          "use1Xscale": false,
+          "x": 205,
+          "y": 79
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_trade",
+          "text": "Trade",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "LandAgentTrade1"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 248,
+          "y": 29
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_trade1",
+          "text": "Trade",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "LandAgentTrade2"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 248,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_trade2",
+          "text": "Trade",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "LandAgentTrade3"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 248,
+          "y": 76
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

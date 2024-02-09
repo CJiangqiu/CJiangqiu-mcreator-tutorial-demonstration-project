@@ -1,0 +1,195 @@
+{
+  "_fv": 57,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "WANDERING_TRADER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHERITE_INGOT"
+            },
+            "countOffer": 2,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.DIAMOND"
+            },
+            "countOffer": 4,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 3,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.TOTEM_OF_UNDYING"
+            },
+            "countOffer": 2,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.GOLDEN_APPLE#1"
+            },
+            "countOffer": 2,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.DRAGON_EGG"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHER_STAR"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice2": 64,
+            "offer": {
+              "value": "CUSTOM:TestWeapon"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 1,
+            "xp": 100,
+            "priceMultiplier": 0.01
+          }
+        ]
+      }
+    ]
+  }
+}

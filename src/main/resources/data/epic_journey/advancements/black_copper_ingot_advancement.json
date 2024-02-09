@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "epic_journey:black_copper_ingot"
+    },
+    "title": {
+      "translate": "advancements.black_copper_ingot_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.black_copper_ingot_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "black_copper_ingot_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "epic_journey:black_copper_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "recipes": [
+      "epic_journey:black_copper_block_recipe",
+      "epic_journey:black_copper_block_transform_recipe",
+      "epic_journey:black_copper_armor_helmet_recipe",
+      "epic_journey:black_copper_armor_chestplate_recipe",
+      "epic_journey:black_copper_armor_leggings_recipe",
+      "epic_journey:black_copper_armor_boots_recipe",
+      "epic_journey:black_copper_pickaxe_recipe",
+      "epic_journey:black_copper_axe_recipe",
+      "epic_journey:black_copper_sword_recipe",
+      "epic_journey:black_copper_shovel_recipe",
+      "epic_journey:black_copper_hoe_recipe"
+    ]
+  },
+  "parent": "epic_journey:silver_ore_advancement"
+}

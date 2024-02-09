@@ -1,0 +1,51 @@
+{
+  "_fv": 57,
+  "_type": "config",
+  "definition": {
+    "pools": [
+      {
+        "category": "player_respawn_protection",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "When this is true, players will receive some buffs every time they respawn.",
+            "vardisplay": "player_respawn_protection",
+            "varname": "player_respawn_protection",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "CUSTOM:BankTeller"
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "When this is true, all the values of the epic journey bosses will increase significantly due to the difficulty of the game, which is really significant!",
+            "vardisplay": "boss_difficulty_dynamic_value",
+            "varname": "boss_difficulty_dynamic_value",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "CUSTOM:BankTeller"
+          }
+        ]
+      }
+    ],
+    "file": "epic_journey_configuration",
+    "configType": 0
+  }
+}

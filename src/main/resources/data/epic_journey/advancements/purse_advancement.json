@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "epic_journey:purse"
+    },
+    "title": {
+      "translate": "advancements.purse_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.purse_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "purse_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "epic_journey:purse"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "epic_journey:copper_coin_advancement"
+}

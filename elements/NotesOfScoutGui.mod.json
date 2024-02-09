@@ -1,0 +1,421 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "notes.png",
+          "use1Xscale": false,
+          "x": 51,
+          "y": -1
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_this_is_the_last_message_from_a",
+          "text": {
+            "fixedValue": "“This is the last message from an imperial scout: "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 69,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_rain_has_extinguished_the_bo",
+          "text": {
+            "fixedValue": "The rain has extinguished the bonfire, it’s cold, so cold. "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 17
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_i_put_the_lantern_beside_me_del",
+          "text": {
+            "fixedValue": "I put the lantern beside me, deluding myself that it could "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bring_me_a_few_strands_of_warmth",
+          "text": {
+            "fixedValue": "bring me a few strands of warmth, just as I delude myself "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_just_as_i_delude_myself_that_th",
+          "text": {
+            "fixedValue": ""
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 231,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_that_this_note",
+          "text": {
+            "fixedValue": "that this note could be seen by someone. "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_this_is_the_last_thing_i_can_do",
+          "text": {
+            "fixedValue": "This is the last thing I can do, I want to tell you- no "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_no_matter_who_picks_up_this_no",
+          "text": {
+            "fixedValue": "matter who picks up this note, as long as you are an"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_intellectual_creature_what_i_w",
+          "text": {
+            "fixedValue": " intellectual creature, what I want to warn you is,"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_fire_burn_this_forest_with_fire",
+          "text": {
+            "fixedValue": "fire! Burn this forest with fire, "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_noits_not_a_forest_anymore",
+          "text": {
+            "fixedValue": "no,it’s not a forest anymore! "
+          },
+          "color": {
+            "value": -52429,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_just_like_the_empires_most_impo",
+          "text": {
+            "fixedValue": "Just like the empire’s most important tributary state,"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_it_is_completely_different_from",
+          "text": {
+            "fixedValue": "it is completely different from its original interior!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_according_to_the_preliminary_obs",
+          "text": {
+            "fixedValue": "According to the preliminary observation of the "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_accompanying_priest",
+          "text": {
+            "fixedValue": "accompanying priest,the people of this country are "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_parasitized",
+          "text": {
+            "fixedValue": "parasitized by a peculiar spore, their minds are in a "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_vague_statethey_will_only_aimle",
+          "text": {
+            "fixedValue": "vague state,they will only aimlessly gather together and "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_wander_but_when_attacked_they",
+          "text": {
+            "fixedValue": "wander, but when attacked, they will fiercely "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_counterattack_i_privately_call",
+          "text": {
+            "fixedValue": "counterattack, I privately call them ‘the lost’."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_we_want_to_reach_uh_my_heart_i",
+          "text": {
+            "fixedValue": "We want to reach… uh, my heart is in severe pain… "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_god_there_is_something_green_wr",
+          "text": {
+            "fixedValue": "God, there is something green wriggling there… "
+          },
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "x": 87,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_well_we_found_that_the_source_o",
+          "text": {
+            "fixedValue": "Well, we found that the source of all this seems to come"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_from_that_palace_the_closer_we",
+          "text": {
+            "fixedValue": " from that palace, the closer we get, the more we can hear "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 54,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_a_whisper_fick_fowos",
+          "text": {
+            "fixedValue": "a whisper "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 64,
+          "y": 206
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_fick_forvoss",
+          "text": {
+            "fixedValue": "‘Fick… Forvoss…’"
+          },
+          "color": {
+            "value": -16751053,
+            "falpha": 0.0
+          },
+          "x": 159,
+          "y": 215
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_next_page",
+          "text": "Next Page",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "NotesOfScoutGuiButton"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 285,
+          "y": 215
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

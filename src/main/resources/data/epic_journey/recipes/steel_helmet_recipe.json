@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "epic_journey:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "epic_journey:steel_armor_helmet",
+    "count": 1
+  }
+}

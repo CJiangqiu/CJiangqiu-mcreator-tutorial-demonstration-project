@@ -1,0 +1,102 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "bonus_rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "epic_journey:copper_coin",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "epic_journey:silver_coin",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "epic_journey:gold_coin",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "epic_journey:chests/bank_loot_table"
+}

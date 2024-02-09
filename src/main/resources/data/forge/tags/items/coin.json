@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "epic_journey:copper_coin",
+    "epic_journey:silver_coin",
+    "epic_journey:gold_coin"
+  ]
+}

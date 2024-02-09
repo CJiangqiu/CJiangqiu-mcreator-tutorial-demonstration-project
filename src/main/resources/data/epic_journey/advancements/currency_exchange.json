@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "epic_journey:exchange"
+    },
+    "title": {
+      "translate": "advancements.currency_exchange.title"
+    },
+    "description": {
+      "translate": "advancements.currency_exchange.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "currency_exchange": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "epic_journey:copper_coin_advancement"
+}

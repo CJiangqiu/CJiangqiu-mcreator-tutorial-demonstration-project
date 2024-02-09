@@ -1,0 +1,7 @@
+{
+  "parent": "epic_journey:custom/blocking_black_copper_shield",
+  "textures": {
+    "0": "epic_journey:block/black_copper_shield",
+    "particle": "epic_journey:item/black_copper_shield"
+  }
+}

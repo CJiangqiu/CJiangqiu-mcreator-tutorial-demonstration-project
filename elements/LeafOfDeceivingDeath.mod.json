@@ -1,0 +1,65 @@
+{
+  "_fv": 57,
+  "_type": "curiosbauble",
+  "definition": {
+    "renderType": 0,
+    "texture": "leaf_of_deceiving_death",
+    "customModelName": "Normal",
+    "name": "§cLeaf of Deceiving Death",
+    "rarity": "EPIC",
+    "slotType": "GodlyArtifact",
+    "baubleModel": "Default",
+    "baubleModelTexture": "",
+    "creativeTab": {
+      "value": "CUSTOM:EpicJourney"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 12,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
+    "enableMeleeDamage": false,
+    "addSlot": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hasGlow": true,
+    "customProperties": {},
+    "states": [],
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "slotAmount": 1,
+    "curioTick": {
+      "name": "LeafOfDeceivingDeathWhileBaubleIsEquippedTick"
+    },
+    "onEquip": {
+      "name": "LeafOfDeceivingDeathBaubleIsEquipped"
+    },
+    "onUnequip": {
+      "name": "LeafOfDeceivingDeathBaubleIsUnequipped"
+    },
+    "isFood": false,
+    "friendlyPigs": false,
+    "enderMask": false,
+    "rotateModel": false,
+    "translateModel": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "hasModel": false,
+    "animation": "none"
+  }
+}

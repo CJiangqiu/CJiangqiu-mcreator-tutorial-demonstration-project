@@ -1,0 +1,33 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "skinner",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "§eSkinner",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:EpicJourney"
+    },
+    "harvestLevel": 1,
+    "efficiency": 6.0,
+    "attackSpeed": 2.0,
+    "enchantability": 22,
+    "damageVsEntity": 7.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

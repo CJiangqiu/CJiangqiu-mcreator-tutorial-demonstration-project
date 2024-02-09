@@ -1,0 +1,3938 @@
+{
+  "mod_elements": [
+    {
+      "name": "Scroll",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/ScrollItem.java",
+          "src/main/java/net/epicjourney/item/inventory/ScrollInventoryCapability.java",
+          "src/main/resources/assets/epic_journey/models/item/scroll.json"
+        ]
+      }
+    },
+    {
+      "name": "EpicJourney",
+      "type": "tab",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_journey",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Task1",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "task_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/Task1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScrollGui",
+      "type": "gui",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/world/inventory/ScrollGuiMenu.java",
+          "src/main/java/net/epicjourney/client/gui/ScrollGuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/steel_ingot.json",
+          "src/main/java/net/epicjourney/item/SteelIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/steel_block.json",
+          "src/main/java/net/epicjourney/block/SteelBlockBlock.java",
+          "src/main/resources/assets/epic_journey/models/block/steel_block.json",
+          "src/main/resources/assets/epic_journey/blockstates/steel_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelPickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/steel_pickaxe.json",
+          "src/main/java/net/epicjourney/item/SteelPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelAxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/SteelAxeItem.java",
+          "src/main/resources/assets/epic_journey/models/item/steel_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelSword",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/steel_sword.json",
+          "src/main/java/net/epicjourney/item/SteelSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelShovel",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/steel_shovel.json",
+          "src/main/java/net/epicjourney/item/SteelShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelHoe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/SteelHoeItem.java",
+          "src/main/resources/assets/epic_journey/models/item/steel_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelArmor",
+      "type": "armor",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/steel_armor_chestplate.json",
+          "src/main/resources/assets/epic_journey/models/item/steel_armor_leggings.json",
+          "src/main/resources/assets/epic_journey/models/item/steel_armor_boots.json",
+          "src/main/java/net/epicjourney/item/SteelArmorItem.java",
+          "src/main/resources/assets/epic_journey/models/item/steel_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngotRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/steel_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlockRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/steel_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlockIngotRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/steel_block_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/steel_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelAxeRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/steel_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelSwordRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/steel_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelShovelRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/steel_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelHoeRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/steel_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelHelmetRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/steel_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelChestplateRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/steel_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/steel_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelBootsRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/steel_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Begins",
+      "type": "achievement",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "begins",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/begins.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelAdvancements",
+      "type": "achievement",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_advancements",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/steel_advancements.json"
+        ]
+      }
+    },
+    {
+      "name": "TestBoss",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_boss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/client/renderer/TestBossRenderer.java",
+          "src/main/java/net/epicjourney/entity/TestBossEntity.java",
+          "src/main/resources/assets/epic_journey/models/item/test_boss_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "TestWeaponYouJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_weapon_you_ji_kong_qi_shi_shi_ti_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/TestWeaponYouJiKongQiShiShiTiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestWeapon",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_weapon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/TestWeaponItem.java",
+          "src/main/resources/assets/epic_journey/models/item/test_weapon.json"
+        ]
+      }
+    },
+    {
+      "name": "TestBossDangShiTiShouShangShi",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_boss_dang_shi_ti_shou_shang_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/TestBossDangShiTiShouShangShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestWeaponShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_weapon_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/TestWeaponShiTiBeiGongJuJiZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperCoin",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_coin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/CopperCoinItem.java",
+          "src/main/resources/assets/epic_journey/models/item/copper_coin.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverCoin",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_coin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/SilverCoinItem.java",
+          "src/main/resources/assets/epic_journey/models/item/silver_coin.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldCoin",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_coin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/GoldCoinItem.java",
+          "src/main/resources/assets/epic_journey/models/item/gold_coin.json"
+        ]
+      }
+    },
+    {
+      "name": "Coin",
+      "type": "tag",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/coin.json"
+        ]
+      }
+    },
+    {
+      "name": "PurseGui",
+      "type": "gui",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purse_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/client/gui/PurseGuiScreen.java",
+          "src/main/java/net/epicjourney/world/inventory/PurseGuiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Purse",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purse",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/PurseItem.java",
+          "src/main/java/net/epicjourney/item/inventory/PurseInventoryCapability.java",
+          "src/main/resources/assets/epic_journey/models/item/purse.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngotTag",
+      "type": "tag",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ingots/steel.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperCoinDrop",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_coin_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/CopperCoinDropProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperCoinAdvancement",
+      "type": "achievement",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_coin_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/copper_coin_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "PurseRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purse_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/purse_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PurseAdvancement",
+      "type": "achievement",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purse_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/purse_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverCoinAdvancement",
+      "type": "achievement",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_coin_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/silver_coin_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldCoinAdvancement",
+      "type": "achievement",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_coin_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/gold_coin_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverCoinDrop",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_coin_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/SilverCoinDropProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldCoinDrop",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_coin_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/GoldCoinDropProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldCoinTrade",
+      "type": "villagertrade",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_coin_trade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TestWeaponGongJuChuXianZaiWuPinLanShiMeiKeFaSheng",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_weapon_player_protect_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/TestWeaponGongJuChuXianZaiWuPinLanShiMeiKeFaShengProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestWeaponPlayerProtect",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_weapon_player_protect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/TestWeaponPlayerProtectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestWeaponPlayerProtect2",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_weapon_player_protect_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/TestWeaponPlayerProtect2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestWeaponPlayerProtect3",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_weapon_player_protect_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/TestWeaponPlayerProtect3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BankTeller",
+      "type": "livingentity",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_teller",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/bank_teller_spawn_egg.json",
+          "src/main/java/net/epicjourney/client/renderer/BankTellerRenderer.java",
+          "src/main/java/net/epicjourney/entity/BankTellerEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BankTellerSpawn",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_teller_spawn_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/BankTellerSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BankTellerTrade1",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_teller_trade_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/BankTellerTrade1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BankTellerShiTiChuShiShengChengShi",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_teller_shi_ti_chu_shi_sheng_cheng_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/BankTellerShiTiChuShiShengChengShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BankTellerTrade2",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_teller_trade_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/BankTellerTrade2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BankTellerTradeGui",
+      "type": "gui",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_teller_trade_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/network/BankTellerTradeGuiButtonMessage.java",
+          "src/main/java/net/epicjourney/client/gui/BankTellerTradeGuiScreen.java",
+          "src/main/java/net/epicjourney/world/inventory/BankTellerTradeGuiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Exchange",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exchange",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/exchange.json",
+          "src/main/java/net/epicjourney/item/ExchangeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CurrencyExchange",
+      "type": "achievement",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "currency_exchange",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/currency_exchange.json"
+        ]
+      }
+    },
+    {
+      "name": "InHouseJudgment",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "in_house_judgment",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/epicjourney/procedures/InHouseJudgmentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OutHouseJudgment",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "out_house_judgment",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/epicjourney/procedures/OutHouseJudgmentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HidingJudgment",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hiding_judgment",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/epicjourney/procedures/HidingJudgmentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bank",
+      "type": "structure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/worldgen/structure/bank.json",
+          "src/main/resources/data/epic_journey/worldgen/template_pool/bank.json",
+          "src/main/resources/data/epic_journey/worldgen/structure_set/bank.json"
+        ]
+      }
+    },
+    {
+      "name": "BuildingSpawnBankYouJiFangKuaiShiFangKuaiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "building_spawn_bank_you_ji_fang_kuai_shi_fang_kuai_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/BuildingSpawnBankYouJiFangKuaiShiFangKuaiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BuildingSpawnBank",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "building_spawn_bank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/BuildingSpawnBankItem.java",
+          "src/main/resources/assets/epic_journey/models/item/building_spawn_bank.json"
+        ]
+      }
+    },
+    {
+      "name": "BankLootTable",
+      "type": "loottable",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/loot_tables/chests/bank_loot_table.json"
+        ]
+      }
+    },
+    {
+      "name": "UndergroundTombLootTable",
+      "type": "loottable",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underground_tomb_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/loot_tables/chests/underground_tomb_loot_table.json"
+        ]
+      }
+    },
+    {
+      "name": "UndergroundTomb",
+      "type": "structure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underground_tomb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/worldgen/template_pool/underground_tomb.json",
+          "src/main/resources/data/epic_journey/worldgen/structure/underground_tomb.json",
+          "src/main/resources/data/epic_journey/worldgen/structure_set/underground_tomb.json"
+        ]
+      }
+    },
+    {
+      "name": "BuildingUndergroundTomb",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "building_underground_tomb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/building_underground_tomb.json",
+          "src/main/java/net/epicjourney/item/BuildingUndergroundTombItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BuildingUndergroundTombYouJiFangKuaiShiFangKuaiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "building_underground_tomb_you_ji_fang_kuai_shi_fang_kuai_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/BuildingUndergroundTombYouJiFangKuaiShiFangKuaiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperIngot",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/BlackCopperIngotItem.java",
+          "src/main/resources/assets/epic_journey/models/item/black_copper_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperBlock",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/block/black_copper_block.json",
+          "src/main/resources/assets/epic_journey/blockstates/black_copper_block.json",
+          "src/main/resources/assets/epic_journey/models/item/black_copper_block.json",
+          "src/main/java/net/epicjourney/block/BlackCopperBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperBlockRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/black_copper_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperBlockTransformRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_block_transform_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/black_copper_block_transform_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperArmor",
+      "type": "armor",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/BlackCopperArmorItem.java",
+          "src/main/resources/assets/epic_journey/models/item/black_copper_armor_chestplate.json",
+          "src/main/resources/assets/epic_journey/models/item/black_copper_armor_boots.json",
+          "src/main/resources/assets/epic_journey/models/item/black_copper_armor_leggings.json",
+          "src/main/resources/assets/epic_journey/models/item/black_copper_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/black_copper_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/black_copper_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/black_copper_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/black_copper_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverDust",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/silver_dust.json",
+          "src/main/java/net/epicjourney/item/SilverDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/silver_ore.json",
+          "src/main/resources/data/epic_journey/forge/biome_modifier/silver_ore_biome_modifier.json",
+          "src/main/java/net/epicjourney/block/SilverOreBlock.java",
+          "src/main/resources/data/epic_journey/worldgen/placed_feature/silver_ore.json",
+          "src/main/resources/assets/epic_journey/models/block/silver_ore.json",
+          "src/main/resources/assets/epic_journey/blockstates/silver_ore.json",
+          "src/main/resources/data/epic_journey/worldgen/configured_feature/silver_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverOreSmelting",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/silver_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelHammer",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/SteelHammerItem.java",
+          "src/main/resources/assets/epic_journey/models/item/steel_hammer.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/SilverIngotItem.java",
+          "src/main/resources/assets/epic_journey/models/item/silver_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverDustRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/silver_dust_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelHammerRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/steel_hammer_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OresSilver",
+      "type": "tag",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ores/silver.json"
+        ]
+      }
+    },
+    {
+      "name": "DustsSilver",
+      "type": "tag",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusts_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/dusts/silver.json"
+        ]
+      }
+    },
+    {
+      "name": "IngotsSilver",
+      "type": "tag",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingots_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ingots/silver.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldSilverMixedPowder",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_silver_mixed_powder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/GoldSilverMixedPowderItem.java",
+          "src/main/resources/assets/epic_journey/models/item/gold_silver_mixed_powder.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldSilverMixedPowderRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_silver_mixed_powder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/gold_silver_mixed_powder_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperIngotRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/black_copper_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DustsGoldSilverMixed",
+      "type": "tag",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusts_gold_silver_mixed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/dusts/gold_silver_mixed.json"
+        ]
+      }
+    },
+    {
+      "name": "HammerTag",
+      "type": "tag",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/hammer.json"
+        ]
+      }
+    },
+    {
+      "name": "EpicJourneyBuilding",
+      "type": "tab",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_journey_building",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BlackCopperArmorEffect",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_armor_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/BlackCopperArmorEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BankTellerTrade3",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_teller_trade_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/BankTellerTrade3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BankTellerTrade4",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_teller_trade_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/BankTellerTrade4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldDust",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/GoldDustItem.java",
+          "src/main/resources/assets/epic_journey/models/item/gold_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "DustsGold",
+      "type": "tag",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusts_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/dusts/gold.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldDustRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/gold_dust_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverOreAdvancement",
+      "type": "achievement",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/silver_ore_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperPickaxe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/black_copper_pickaxe.json",
+          "src/main/java/net/epicjourney/item/BlackCopperPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperAxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/black_copper_axe.json",
+          "src/main/java/net/epicjourney/item/BlackCopperAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperSword",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/BlackCopperSwordItem.java",
+          "src/main/resources/assets/epic_journey/models/item/black_copper_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperShovel",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/BlackCopperShovelItem.java",
+          "src/main/resources/assets/epic_journey/models/item/black_copper_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperHoe",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/black_copper_hoe.json",
+          "src/main/java/net/epicjourney/item/BlackCopperHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/black_copper_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperAxeRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/black_copper_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperSwordRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/black_copper_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperShovelRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/black_copper_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperHoeRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/recipes/black_copper_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperIngotAdvancement",
+      "type": "achievement",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_ingot_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/black_copper_ingot_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperSwordShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_sword_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/BlackCopperSwordShiTiBeiGongJuJiZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperShield",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_shield",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/black_copper_shield_0.json",
+          "src/main/java/net/epicjourney/item/BlackCopperShieldItem.java",
+          "src/main/resources/assets/epic_journey/models/item/black_copper_shield.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperBow",
+      "type": "item",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_bow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/black_copper_bow.json",
+          "src/main/java/net/epicjourney/item/BlackCopperBowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CheckRaceReputationValue",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_race_reputation_value",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/epicjourney/procedures/CheckRaceReputationValueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackCopperShieldAbility",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_copper_shield_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/BlackCopperShieldAbilityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EpicJourneyVillagerTrade",
+      "type": "villagertrade",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_journey_villager_trade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Skinner",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/skinner.json",
+          "src/main/java/net/epicjourney/item/SkinnerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SkinnerAttack",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinner_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/SkinnerAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SkinnerAdvancement",
+      "type": "achievement",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skinner_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/skinner_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "AbattoirShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abattoir_entity_attcked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/AbattoirShiTiBeiGongJuJiZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Abattoir",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abattoir",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/abattoir.json",
+          "src/main/java/net/epicjourney/item/AbattoirItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AbattoirAdvancement",
+      "type": "achievement",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abattoir_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/abattoir_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "TravelStaff",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travel_staff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/TravelStaffItem.java",
+          "src/main/resources/assets/epic_journey/models/item/travel_staff.json"
+        ]
+      }
+    },
+    {
+      "name": "TravelStaffGongJuChuXianZaiShouZhongShiMeiKeFaSheng",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travel_staff_when_in_backpack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/TravelStaffGongJuChuXianZaiShouZhongShiMeiKeFaShengProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TravelStaffYouJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travel_staff_when_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/TravelStaffYouJiKongQiShiShiTiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FriendsOfTravelers",
+      "type": "achievement",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friends_of_travelers",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/friends_of_travelers.json"
+        ]
+      }
+    },
+    {
+      "name": "HarvestYouJiFangKuaiShiFangKuaiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harvest_when_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/HarvestYouJiFangKuaiShiFangKuaiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Harvest",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harvest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/HarvestItem.java",
+          "src/main/resources/assets/epic_journey/models/item/harvest.json"
+        ]
+      }
+    },
+    {
+      "name": "HarvestAdvancement",
+      "type": "achievement",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harvest_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/harvest_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "ShepherdsStaffShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shepherds_staff_when_entity_attacked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/ShepherdsStaffShiTiBeiGongJuJiZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShepherdsStaff",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shepherds_staff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/ShepherdsStaffItem.java",
+          "src/main/resources/assets/epic_journey/models/item/shepherds_staff.json"
+        ]
+      }
+    },
+    {
+      "name": "ShepherdStaffAdvancement",
+      "type": "achievement",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shepherd_staff_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/shepherd_staff_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicDragonFireDanSheWuJiZhongFangKuaiShi",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_dragon_fire_when_block_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/MagicDragonFireDanSheWuJiZhongFangKuaiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicDragonFireDanSheWuJiZhongShiTiShi",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_dragon_fire_when_entity_attacked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/MagicDragonFireDanSheWuJiZhongShiTiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicDragonFire",
+      "type": "projectile",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_dragon_fire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/client/renderer/MagicDragonFireRenderer.java",
+          "src/main/java/net/epicjourney/entity/MagicDragonFireEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ShepherdsStaffYouJiFangKuaiShiFangKuaiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shepherds_staff_when_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/ShepherdsStaffYouJiFangKuaiShiFangKuaiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bellwether",
+      "type": "achievement",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bellwether",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/bellwether.json"
+        ]
+      }
+    },
+    {
+      "name": "EpicJourneyConfiguration",
+      "type": "config",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_journey_configuration",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/configuration/EpicJourneyConfigurationConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayerRespawnProtection",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_respawn_protection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/PlayerRespawnProtectionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LandAgent",
+      "type": "livingentity",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "land_agent",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/client/renderer/LandAgentRenderer.java",
+          "src/main/java/net/epicjourney/entity/LandAgentEntity.java",
+          "src/main/resources/assets/epic_journey/models/item/land_agent_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "LandAgentTextureShow1",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "land_agent_texture_show_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/epicjourney/procedures/LandAgentTextureShow1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LandAgentTextureShow2",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "land_agent_texture_show_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/epicjourney/procedures/LandAgentTextureShow2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LandAgentShiTiChuShiShengChengShi",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "land_agent_shi_ti_chu_shi_sheng_cheng_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/LandAgentShiTiChuShiShengChengShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NpcHurt",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "npc_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/NpcHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BankTellerTextureShow1",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_teller_texture_show_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/epicjourney/procedures/BankTellerTextureShow1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BankTellerTextureShow2",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_teller_texture_show_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/epicjourney/procedures/BankTellerTextureShow2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BuildingSmallSizedWoodenHouse",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "house_property_small_sized_wooden_house",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/house_property_small_sized_wooden_house.json",
+          "src/main/java/net/epicjourney/item/BuildingSmallSizedWoodenHouseItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BuildingSmallSizedWoodenHouseYouJiFangKuaiShiFangKuaiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "building_small_sized_wooden_house_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/BuildingSmallSizedWoodenHouseYouJiFangKuaiShiFangKuaiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HousePropertyMediumSizedWoodenHouseYouJiFangKuaiShiFangKuaiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "house_property_medium_sized_wooden_house_you_ji_fang_kuai_shi_fang_kuai_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/HousePropertyMediumSizedWoodenHouseYouJiFangKuaiShiFangKuaiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HousePropertyMediumSizedWoodenHouse",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "house_property_medium_sized_wooden_house",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/HousePropertyMediumSizedWoodenHouseItem.java",
+          "src/main/resources/assets/epic_journey/models/item/house_property_medium_sized_wooden_house.json"
+        ]
+      }
+    },
+    {
+      "name": "HousePropertyBigSizedWoodenHouseYouJiFangKuaiShiFangKuaiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "house_property_big_sized_wooden_house_you_ji_fang_kuai_shi_fang_kuai_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/HousePropertyBigSizedWoodenHouseYouJiFangKuaiShiFangKuaiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HousePropertyBigSizedWoodenHouse",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "house_property_big_sized_wooden_house",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/HousePropertyBigSizedWoodenHouseItem.java",
+          "src/main/resources/assets/epic_journey/models/item/house_property_big_sized_wooden_house.json"
+        ]
+      }
+    },
+    {
+      "name": "PropertyAdvancement",
+      "type": "achievement",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "property_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/property_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "LandAgentTrade1",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "land_agent_trade_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/LandAgentTrade1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LandAgentTrade2",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "land_agent_trade_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/LandAgentTrade2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LandAgentTrade3",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "land_agent_trade_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/LandAgentTrade3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LandAgentSpawn",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "land_agent_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/LandAgentSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SalesCenter",
+      "type": "structure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sales_center",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/worldgen/structure/sales_center.json",
+          "src/main/resources/data/epic_journey/worldgen/structure_set/sales_center.json",
+          "src/main/resources/data/epic_journey/worldgen/template_pool/sales_center.json"
+        ]
+      }
+    },
+    {
+      "name": "BuildingSalesCenterYouJiFangKuaiShiFangKuaiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "building_sales_center_you_ji_fang_kuai_shi_fang_kuai_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/BuildingSalesCenterYouJiFangKuaiShiFangKuaiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BuildingSalesCenter",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "building_sales_center",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/BuildingSalesCenterItem.java",
+          "src/main/resources/assets/epic_journey/models/item/building_sales_center.json"
+        ]
+      }
+    },
+    {
+      "name": "LandAgentTradeGui",
+      "type": "gui",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "land_agent_trade_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/world/inventory/LandAgentTradeGuiMenu.java",
+          "src/main/java/net/epicjourney/client/gui/LandAgentTradeGuiScreen.java",
+          "src/main/java/net/epicjourney/network/LandAgentTradeGuiButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "TheLost",
+      "type": "animatedentity",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "the_lost",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/forge/biome_modifier/the_lost_biome_modifier.json",
+          "src/main/resources/assets/epic_journey/models/item/the_lost_spawn_egg.json",
+          "src/main/java/net/epicjourney/client/renderer/TheLostRenderer.java",
+          "src/main/java/net/epicjourney/entity/model/TheLostModel.java",
+          "src/main/java/net/epicjourney/entity/TheLostEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "TheLostShiTiChuShiShengChengShi",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_lost_shi_ti_chu_shi_sheng_cheng_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/TheLostShiTiChuShiShengChengShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheLostTextureShow1",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_lost_texture_show_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/epicjourney/procedures/TheLostTextureShow1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FickForvoss",
+      "type": "biome",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fick_forvoss",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/worldgen/placed_feature/fick_forvoss_tree.json",
+          "src/main/resources/data/epic_journey/worldgen/configured_feature/fick_forvoss_tree.json",
+          "src/main/java/net/epicjourney/world/features/treedecorators/FickForvossLeaveDecorator.java",
+          "src/main/resources/data/epic_journey/worldgen/biome/fick_forvoss.json",
+          "src/main/java/net/epicjourney/world/features/treedecorators/FickForvossFruitDecorator.java",
+          "src/main/java/net/epicjourney/world/features/treedecorators/FickForvossTrunkDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "HumanSoldierDeath",
+      "type": "livingentity",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "human_soldier_death",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/human_soldier_death_spawn_egg.json",
+          "src/main/java/net/epicjourney/client/renderer/HumanSoldierDeathRenderer.java",
+          "src/main/java/net/epicjourney/entity/HumanSoldierDeathEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "NotesOfScout",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "notes_of_scout",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/notes_of_scout.json",
+          "src/main/java/net/epicjourney/item/inventory/NotesOfScoutInventoryCapability.java",
+          "src/main/java/net/epicjourney/item/NotesOfScoutItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NotesOfScoutGui",
+      "type": "gui",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "notes_of_scout_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/world/inventory/NotesOfScoutGuiMenu.java",
+          "src/main/java/net/epicjourney/client/gui/NotesOfScoutGuiScreen.java",
+          "src/main/java/net/epicjourney/network/NotesOfScoutGuiButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "NotesOfScoutGui2",
+      "type": "gui",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "notes_of_scout_gui_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/client/gui/NotesOfScoutGui2Screen.java",
+          "src/main/java/net/epicjourney/world/inventory/NotesOfScoutGui2Menu.java",
+          "src/main/java/net/epicjourney/network/NotesOfScoutGui2ButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "NotesOfScoutGuiButton",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "notes_of_scout_gui_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/NotesOfScoutGuiButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheLastMessageAdvancement",
+      "type": "achievement",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_final_message_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/the_final_message_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "HumanSoldierDeathYouJiShiTiShi",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "human_soldier_death_you_ji_shi_ti_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/HumanSoldierDeathYouJiShiTiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NotesOfScoutGuiButton1",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "notes_of_scout_gui_button_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/NotesOfScoutGuiButton1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NotesOfScoutGuiButton2",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "notes_of_scout_gui_button_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/NotesOfScoutGuiButton2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Task2",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "task_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GodlyArtifact",
+      "type": "curiosslot",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godly_artifact",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/godly_artifact.json"
+        ]
+      }
+    },
+    {
+      "name": "LeafOfDeceivingDeathWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaf_of_deceiving_death_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/LeafOfDeceivingDeathWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LeafOfDeceivingDeathBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaf_of_deceiving_death_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/LeafOfDeceivingDeathBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LeafOfDeceivingDeath",
+      "type": "curiosbauble",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaf_of_deceiving_death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/LeafOfDeceivingDeathItem.java",
+          "src/main/resources/assets/epic_journey/models/item/leaf_of_deceiving_death.json"
+        ]
+      }
+    },
+    {
+      "name": "FickForvossAdvancement",
+      "type": "achievement",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fick_forvoss_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/fick_forvoss_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "LeafOfDeceivingDeathAbility",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaf_of_deceiving_death_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/LeafOfDeceivingDeathAbilityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LeafOfDeceivingDeathBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaf_of_deceiving_death_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/LeafOfDeceivingDeathBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SporeAggregate",
+      "type": "animatedentity",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spore_aggregate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/entity/model/SporeAggregateModel.java",
+          "src/main/java/net/epicjourney/entity/SporeAggregateEntity.java",
+          "src/main/resources/data/epic_journey/forge/biome_modifier/spore_aggregate_biome_modifier.json",
+          "src/main/resources/assets/epic_journey/models/item/spore_aggregate_spawn_egg.json",
+          "src/main/java/net/epicjourney/client/renderer/SporeAggregateRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "SporeAggregateShiTiChuShiShengChengShi",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spore_aggregate_shi_ti_chu_shi_sheng_cheng_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/SporeAggregateShiTiChuShiShengChengShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SporeAggregateDangShiTiGengXinKeShi",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spore_aggregate_dang_shi_ti_geng_xin_ke_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/SporeAggregateDangShiTiGengXinKeShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SporeParasitism",
+      "type": "potioneffect",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spore_parasitism",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/potion/SporeParasitismMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "PlanktonicSporeGroupDangWanJiaYuGaiShiTiFaShengPengZhuangShi",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planktonic_spore_group_dang_wan_jia_yu_gai_shi_ti_fa_sheng_peng_zhuang_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/PlanktonicSporeGroupDangWanJiaYuGaiShiTiFaShengPengZhuangShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlanktonicSporeGroup",
+      "type": "animatedentity",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planktonic_spore_group",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/entity/model/PlanktonicSporeGroupModel.java",
+          "src/main/java/net/epicjourney/client/renderer/PlanktonicSporeGroupRenderer.java",
+          "src/main/java/net/epicjourney/entity/PlanktonicSporeGroupEntity.java",
+          "src/main/resources/assets/epic_journey/models/item/planktonic_spore_group_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "SporeEntityAttacked",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spore_entity_attacked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/SporeEntityAttackedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SporeAggregateDangShiTiShouShangShi",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spore_aggregate_dang_shi_ti_shou_shang_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/SporeAggregateDangShiTiShouShangShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheIniquityOfFakeGod",
+      "type": "animatedentity",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_iniquity_of_fake_god",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/the_iniquity_of_fake_god_spawn_egg.json",
+          "src/main/java/net/epicjourney/entity/model/TheIniquityOfFakeGodModel.java",
+          "src/main/java/net/epicjourney/entity/TheIniquityOfFakeGodEntity.java",
+          "src/main/java/net/epicjourney/client/renderer/TheIniquityOfFakeGodRenderer.java",
+          "src/main/resources/data/epic_journey/forge/biome_modifier/the_iniquity_of_fake_god_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "SporeEntityKillOtherEntity",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spore_entity_kill_other_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/SporeEntityKillOtherEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheLostAttack",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_lost_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/TheLostAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "respawn_protection",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "task_progress",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "human_empire_reputation",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "the_lost_hurt",
+      "files": [
+        "the_lost_hurt"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "the_lost_death",
+      "files": [
+        "the_lost_death"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "the_lost_ambient",
+      "files": [
+        "the_lost_ambient",
+        "the_lost_ambient_2"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "advancements.silver_coin_advancement.descr": "Get a silver coin",
+      "item.epic_journey.land_agent_spawn_egg": "Land Agent Spawn Egg",
+      "gui.epic_journey.notes_of_scout_gui_2.label_become_a_monster": " become a monster… \"",
+      "item.epic_journey.the_iniquity_of_fake_god_spawn_egg": "The Iniquity of Fake God Spawn Egg",
+      "item.epic_journey.steel_armor_leggings": "Steel Leggings",
+      "item.epic_journey.travel_staff": "§bTravel Staff",
+      "item.epic_journey.skinner": "§eSkinner",
+      "gui.epic_journey.notes_of_scout_gui.label_god_there_is_something_green_wr": "God, there is something green wriggling there… ",
+      "item.rarity.legend": "Legend",
+      "advancements.fick_forvoss_advancement.title": "§cThe Kingdom of God:Fick·Forvoss",
+      "item.epic_journey.spore_aggregate_spawn_egg": "Spore Aggregate Spawn Egg",
+      "gui.epic_journey.land_agent_trade_gui.button_trade2": "Trade",
+      "advancements.abattoir_advancement.descr": "Get an abattoir",
+      "gui.epic_journey.notes_of_scout_gui.label_the_rain_has_extinguished_the_bo": "The rain has extinguished the bonfire, it’s cold, so cold. ",
+      "advancements.purse_advancement.descr": "Make a purse",
+      "gui.epic_journey.notes_of_scout_gui.label_wander_but_when_attacked_they": "wander, but when attacked, they will fiercely ",
+      "advancements.black_copper_ingot_advancement.descr": "Make a black copper ingot",
+      "gui.epic_journey.land_agent_trade_gui.button_trade1": "Trade",
+      "item.epic_journey.test_boss_spawn_egg": "Test Boss Spawn Egg",
+      "gui.epic_journey.notes_of_scout_gui.label_i_put_the_lantern_beside_me_del": "I put the lantern beside me, deluding myself that it could ",
+      "gui.epic_journey.notes_of_scout_gui_2.button_thank_you_for_your_message_sol": " Thank you for your message, soldier",
+      "advancements.harvest_advancement.descr": "Get a harvest",
+      "advancements.property_advancement.descr": "Buy a house property",
+      "item.epic_journey.gold_dust": "Gold Dust",
+      "gui.epic_journey.notes_of_scout_gui.label_we_want_to_reach_uh_my_heart_i": "We want to reach… uh, my heart is in severe pain… ",
+      "item.epic_journey.house_property_small_sized_wooden_house": "House Property:Small Sized Wooden House",
+      "gui.epic_journey.notes_of_scout_gui.label_this_is_the_last_thing_i_can_do": "This is the last thing I can do, I want to tell you- no ",
+      "gui.epic_journey.bank_teller_trade_gui.button_trade2": "Trade",
+      "gui.epic_journey.bank_teller_trade_gui.button_trade3": "Trade",
+      "gui.epic_journey.bank_teller_trade_gui.button_trade1": "Trade",
+      "gui.epic_journey.bank_teller_trade_gui.label_1": "1",
+      "advancements.silver_ore_advancement.title": "Like the moonlight buried underground",
+      "gui.epic_journey.notes_of_scout_gui.label_no_matter_who_picks_up_this_no": "matter who picks up this note, as long as you are an",
+      "gui.epic_journey.bank_teller_trade_gui.label_13": "1",
+      "gui.epic_journey.bank_teller_trade_gui.label_12": "1",
+      "item.epic_journey.steel_sword": "Steel Sword",
+      "gui.epic_journey.bank_teller_trade_gui.label_11": "1",
+      "item.epic_journey.steel_armor_helmet": "Steel Helmet",
+      "item.epic_journey.black_copper_ingot": "Black Copper Ingot",
+      "gui.epic_journey.notes_of_scout_gui.label_fire_burn_this_forest_with_fire": "fire! Burn this forest with fire, ",
+      "advancements.gold_coin_advancement.title": "Shiny and sparkling!",
+      "gui.epic_journey.land_agent_trade_gui.label_6": "6",
+      "biome.epic_journey.fick_forvoss": "Fick·Forvoss",
+      "advancements.bellwether.title": "Bellwether",
+      "gui.epic_journey.land_agent_trade_gui.label_14": "14",
+      "gui.epic_journey.notes_of_scout_gui.label_parasitized": "parasitized by a peculiar spore, their minds are in a ",
+      "block.epic_journey.silver_ore": "Silver Ore",
+      "item_group.epic_journey.epic_journey_building": "§5Epic Journey:Building",
+      "item.epic_journey.steel_pickaxe": "Steel Pickaxe",
+      "gui.epic_journey.notes_of_scout_gui_2.label_be_resolvedwhen_i_ran_with_thi": "Suddenly,a scream came from behind,",
+      "gui.epic_journey.bank_teller_trade_gui.label_16": "16",
+      "gui.epic_journey.notes_of_scout_gui.label_intellectual_creature_what_i_w": " intellectual creature, what I want to warn you is,",
+      "item.epic_journey.black_copper_armor_leggings": "§eBlack Copper Leggings",
+      "item.epic_journey.black_copper_hoe": "§eBlack Copper Hoe",
+      "gui.epic_journey.notes_of_scout_gui.label_a_whisper_fick_fowos": "a whisper ",
+      "item.epic_journey.black_copper_pickaxe": "§eBlack Copper Pickaxe",
+      "advancements.currency_exchange.title": "Currency Exchange",
+      "entity.epic_journey.test_boss": "Test Boss",
+      "gui.epic_journey.notes_of_scout_gui.label_bring_me_a_few_strands_of_warmth": "bring me a few strands of warmth, just as I delude myself ",
+      "item.epic_journey.exchange": "Exchange",
+      "advancements.friends_of_travelers.title": "Friends of Travelers",
+      "advancements.steel_advancements.descr": "Get a steel ingot.",
+      "gui.epic_journey.notes_of_scout_gui_2.label_just_to_quickly_pass_this_inform": " quickly pass this information back, ",
+      "advancements.the_final_message_advancement.title": "The Final Message",
+      "item.epic_journey.scroll": "Scroll",
+      "entity.epic_journey.human_soldier_death": "Dead Imperial Soldiers",
+      "advancements.the_final_message_advancement.descr": "Find the deceased Imperial Scout and obtain his final message",
+      "gui.epic_journey.notes_of_scout_gui.label_just_as_i_delude_myself_that_th": "",
+      "entity.epic_journey.bank_teller": "Bank Teller",
+      "item.epic_journey.steel_hoe": "Steel Hoe",
+      "gui.epic_journey.notes_of_scout_gui_2.label_empires_caster": "empire’s caster troops launch an attack, everything will ",
+      "gui.epic_journey.notes_of_scout_gui_2.label_came_from_behind_and_then_my_ch": "and then my chain armor was completely",
+      "item.epic_journey.steel_hammer": "Steel Hammer",
+      "gui.epic_journey.notes_of_scout_gui.label_well_we_found_that_the_source_o": "Well, we found that the source of all this seems to come",
+      "advancements.friends_of_travelers.descr": "Get a travel staff",
+      "gui.epic_journey.notes_of_scout_gui_2.label_the_thing_that_parasitized_me_dr": "the thing that parasitized me drilled into my body ",
+      "entity.epic_journey.land_agent": "Land Agent",
+      "advancements.shepherd_staff_advancement.descr": "Get a  Shepherd\u0027s Staff",
+      "item.epic_journey.steel_armor_chestplate": "Steel Chestplate",
+      "advancements.steel_advancements.title": "Experience makes iron stronger",
+      "gui.epic_journey.notes_of_scout_gui.label_vague_statethey_will_only_aimle": "vague state,they will only aimlessly gather together and ",
+      "gui.epic_journey.notes_of_scout_gui.label_according_to_the_preliminary_obs": "According to the preliminary observation of the ",
+      "gui.epic_journey.notes_of_scout_gui.label_accompanying_priest": "accompanying priest,the people of this country are ",
+      "item.epic_journey.planktonic_spore_group_spawn_egg": "Planktonic Spore Group Spawn Egg",
+      "advancements.abattoir_advancement.title": "Enemies of Animals",
+      "gui.epic_journey.land_agent_trade_gui.label_30": "30",
+      "gui.epic_journey.notes_of_scout_gui.label_fick_forvoss": "‘Fick… Forvoss…’",
+      "gui.epic_journey.notes_of_scout_gui_2.label_my_life_i_turned_my_head_and_ra": "my life, I turned my head and ran, my duty as an",
+      "gui.epic_journey.bank_teller_trade_gui.button_trade": "Trade",
+      "item.epic_journey.purse": "Purse",
+      "item.epic_journey.abattoir": "§eAbattoir",
+      "advancements.silver_ore_advancement.descr": "Find a silver ore",
+      "advancements.currency_exchange.descr": "Exchange money with bank teller",
+      "gui.epic_journey.notes_of_scout_gui.label_this_is_the_last_message_from_a": "“This is the last message from an imperial scout: ",
+      "gui.epic_journey.notes_of_scout_gui.label_that_this_note": "that this note could be seen by someone. ",
+      "effect.epic_journey.spore_parasitism": "Spore Parasitism",
+      "gui.epic_journey.notes_of_scout_gui_2.label_the_handwriting_ends_here": " (The handwriting ends here)",
+      "advancements.purse_advancement.title": "Wealth Storage",
+      "gui.epic_journey.notes_of_scout_gui.label_from_that_palace_the_closer_we": " from that palace, the closer we get, the more we can hear ",
+      "gui.epic_journey.land_agent_trade_gui.button_trade": "Trade",
+      "advancements.fick_forvoss_advancement.descr": "§cThe fake god born from lies, the false forest corrupted by desire",
+      "advancements.silver_coin_advancement.title": "Silver Coin!",
+      "gui.epic_journey.bank_teller_trade_gui.label_161": "32",
+      "gui.epic_journey.bank_teller_trade_gui.label_162": "16",
+      "advancements.black_copper_ingot_advancement.title": "Find a new use for copper that has been discarded",
+      "gui.epic_journey.notes_of_scout_gui.button_next_page": "Next Page",
+      "block.epic_journey.steel_block": "Block of Steel",
+      "item.epic_journey.copper_coin": "Copper Coin",
+      "entity.epic_journey.planktonic_spore_group": "Planktonic Spore Group",
+      "item.epic_journey.black_copper_shovel": "§eBlack Copper Shovel",
+      "advancements.bellwether.descr": "Use the Shepherd\u0027s Staff to gather animals",
+      "item.epic_journey.steel_shovel": "Steel Shovel",
+      "curios.identifier.godly_artifact": "§cGodly Artifact",
+      "gui.epic_journey.notes_of_scout_gui.label_noits_not_a_forest_anymore": "no,it’s not a forest anymore! ",
+      "entity.epic_journey.spore_aggregate": "Spore Aggregate",
+      "item.epic_journey.leaf_of_deceiving_death": "§cLeaf of Deceiving Death",
+      "item.epic_journey.black_copper_armor_chestplate": "§eBlack Copper Chestplate",
+      "block.epic_journey.black_copper_block": "§eBlock of Black Copper",
+      "item.epic_journey.black_copper_armor_helmet": "§eBlack Copper Helmet",
+      "gui.epic_journey.notes_of_scout_gui_2.label_imperial_scoutis_not_to_fight_w": " imperial scoutis not to fight with that thing, just to",
+      "config.epic_journey.respawn_protection": "Epic Journey",
+      "advancements.property_advancement.title": "Having a house like this one",
+      "gui.epic_journey.notes_of_scout_gui_2.label_when_we_entered_there_i_saw_som": "When we entered there, I saw something I had never seen in ",
+      "advancements.harvest_advancement.title": "Harvest Day",
+      "entity.epic_journey.the_lost": "The Lost",
+      "config.epic_journey.epic_journey_configuration": "epic_journey_configuration",
+      "item_group.epic_journey.epic_journey": "§5Epic Journey",
+      "item.epic_journey.black_copper_bow": "Black Copper Bow",
+      "item.epic_journey.black_copper_armor_boots": "§eBlack Copper Boots",
+      "advancements.begins.title": "The journey begins",
+      "item.epic_journey.human_soldier_death_spawn_egg": "Dead Imperial Soldiers Spawn Egg",
+      "item.epic_journey.building_spawn_bank": "Building:Bank",
+      "gui.epic_journey.notes_of_scout_gui_2.label_at_this_time": "at this time,  my eyelids are getting heavier and heavier… ",
+      "item.epic_journey.shepherds_staff": "§5Shepherd\u0027s Staff",
+      "advancements.copper_coin_advancement.descr": "Get a copper coin",
+      "gui.epic_journey.notes_of_scout_gui_2.label_shattered": " shattered, my body was hit by something, it seems that",
+      "item.epic_journey.steel_axe": "Steel Axe",
+      "item.epic_journey.steel_ingot": "Steel Ingot",
+      "gui.epic_journey.notes_of_scout_gui.label_just_like_the_empires_most_impo": "Just like the empire’s most important tributary state,",
+      "item.epic_journey.notes_of_scout": "Notes of Scout",
+      "advancements.skinner_advancement.title": "Skin of Pain",
+      "item.epic_journey.test_weapon": "Test Weapon",
+      "item.epic_journey.house_property_big_sized_wooden_house": "House Property:Big Sized Wooden House",
+      "item.epic_journey.harvest": "§eHarvest",
+      "item.epic_journey.silver_dust": "Silver Dust",
+      "advancements.skinner_advancement.descr": "Get a skinner",
+      "gui.epic_journey.notes_of_scout_gui_2.button_this_is_too_scary": "This is too scary...",
+      "advancements.shepherd_staff_advancement.title": "Herd",
+      "item.epic_journey.the_lost_spawn_egg": "The Lost Spawn Egg",
+      "gui.epic_journey.notes_of_scout_gui_2.label_may_i_be_blessed_no_matter_whic": "May I be blessed, no matter which god, I don’t want to",
+      "advancements.begins.descr": "When you wake up, you find a scroll beside you",
+      "advancements.gold_coin_advancement.descr": "Get a gold coin",
+      "item.epic_journey.building_underground_tomb": "Dungeon:Underground Tomb",
+      "item.epic_journey.silver_ingot": "Silver Ingot",
+      "entity.epic_journey.the_iniquity_of_fake_god": "The Iniquity of Fake God",
+      "item.epic_journey.black_copper_shield": "§eBlack Copper Shield",
+      "advancements.copper_coin_advancement.title": "Copper Coin",
+      "item.epic_journey.black_copper_axe": "§eBlack Copper Axe",
+      "gui.epic_journey.notes_of_scout_gui.label_counterattack_i_privately_call": "counterattack, I privately call them ‘the lost’.",
+      "gui.epic_journey.bank_teller_trade_gui.label_32": "32",
+      "item.epic_journey.house_property_medium_sized_wooden_house": "House Property:Medium Sized Wooden House",
+      "item.epic_journey.building_sales_center": "Building:Sales Center",
+      "item.epic_journey.gold_silver_mixed_powder": "Gold-Silver Mixed Powder",
+      "item.epic_journey.silver_coin": "Silver Coin",
+      "item.epic_journey.steel_armor_boots": "Steel Boots",
+      "item.epic_journey.black_copper_sword": "§eBlack Copper Sword",
+      "item.epic_journey.gold_coin": "Gold Coin",
+      "item.epic_journey.bank_teller_spawn_egg": "Bank Teller Spawn Egg",
+      "gui.epic_journey.notes_of_scout_gui.label_it_is_completely_different_from": "it is completely different from its original interior!"
+    },
+    "zh_cn": {
+      "advancements.silver_coin_advancement.descr": "获得一个银币",
+      "item.epic_journey.land_agent_spawn_egg": "房产商生成蛋",
+      "gui.epic_journey.notes_of_scout_gui_2.label_become_a_monster": "我可不想变成怪物...”",
+      "item.epic_journey.the_iniquity_of_fake_god_spawn_egg": "伪神之孽生成蛋",
+      "item.epic_journey.steel_armor_leggings": "钢护腿",
+      "item.epic_journey.travel_staff": "§b旅行法仗",
+      "item.epic_journey.skinner": "§e剥皮者",
+      "gui.epic_journey.notes_of_scout_gui.label_god_there_is_something_green_wr": "天啊，有什么绿色的东西在那里蠕动...",
+      "item.rarity.legend": "传说",
+      "advancements.fick_forvoss_advancement.title": "§c神国：菲克·佛沃斯",
+      "item.epic_journey.spore_aggregate_spawn_egg": "孢子集群生成蛋",
+      "gui.epic_journey.land_agent_trade_gui.button_trade2": "交易",
+      "advancements.abattoir_advancement.descr": "获得一把屠宰场",
+      "gui.epic_journey.notes_of_scout_gui.label_the_rain_has_extinguished_the_bo": "雨水浇灭了篝火，冷，好冷。",
+      "advancements.purse_advancement.descr": "制作一个卡包",
+      "gui.epic_journey.notes_of_scout_gui.label_wander_but_when_attacked_they": "但在受到攻击时，则会猛烈的反击，",
+      "advancements.black_copper_ingot_advancement.descr": "制作一个乌铜锭",
+      "gui.epic_journey.land_agent_trade_gui.button_trade1": "交易",
+      "item.epic_journey.test_boss_spawn_egg": "Test Boss Spawn Egg",
+      "gui.epic_journey.notes_of_scout_gui.label_i_put_the_lantern_beside_me_del": "我把灯笼放在我的身边，妄想着能给自己带来几丝温暖，",
+      "gui.epic_journey.notes_of_scout_gui_2.button_thank_you_for_your_message_sol": "谢谢你的讯息，士兵",
+      "advancements.harvest_advancement.descr": "获得一把收获",
+      "advancements.property_advancement.descr": "购买一座房产",
+      "item.epic_journey.gold_dust": "金粉",
+      "gui.epic_journey.notes_of_scout_gui.label_we_want_to_reach_uh_my_heart_i": "我们想要到达...呃啊，心脏传来剧痛...",
+      "item.epic_journey.house_property_small_sized_wooden_house": "房产：小型木屋",
+      "gui.epic_journey.notes_of_scout_gui.label_this_is_the_last_thing_i_can_do": "这是我能做的最后一件事，我想告诉你们",
+      "gui.epic_journey.bank_teller_trade_gui.button_trade2": "交易",
+      "gui.epic_journey.bank_teller_trade_gui.button_trade3": "交易",
+      "gui.epic_journey.bank_teller_trade_gui.button_trade1": "交易",
+      "gui.epic_journey.bank_teller_trade_gui.label_1": "1",
+      "advancements.silver_ore_advancement.title": "犹如月色被埋于地底",
+      "gui.epic_journey.notes_of_scout_gui.label_no_matter_who_picks_up_this_no": "——无论捡到这篇笔记的人是何种族，",
+      "gui.epic_journey.bank_teller_trade_gui.label_13": "1",
+      "gui.epic_journey.bank_teller_trade_gui.label_12": "1",
+      "item.epic_journey.steel_sword": "钢剑",
+      "gui.epic_journey.bank_teller_trade_gui.label_11": "1",
+      "item.epic_journey.steel_armor_helmet": "钢头盔",
+      "item.epic_journey.black_copper_ingot": "乌铜锭",
+      "gui.epic_journey.notes_of_scout_gui.label_fire_burn_this_forest_with_fire": "火！用火烧光这片森林，",
+      "advancements.gold_coin_advancement.title": "亮闪闪！",
+      "gui.epic_journey.land_agent_trade_gui.label_6": "6",
+      "biome.epic_journey.fick_forvoss": "菲克·佛沃斯",
+      "advancements.bellwether.title": "领头羊",
+      "gui.epic_journey.land_agent_trade_gui.label_14": "14",
+      "gui.epic_journey.notes_of_scout_gui.label_parasitized": "神智处于模糊的状态，",
+      "block.epic_journey.silver_ore": "银矿",
+      "item_group.epic_journey.epic_journey_building": "§5史诗征程：建筑",
+      "item.epic_journey.steel_pickaxe": "钢镐",
+      "gui.epic_journey.notes_of_scout_gui_2.label_be_resolvedwhen_i_ran_with_thi": "突然，身后传来一阵惨叫，",
+      "gui.epic_journey.bank_teller_trade_gui.label_16": "16",
+      "gui.epic_journey.notes_of_scout_gui.label_intellectual_creature_what_i_w": "只要你是有着知性的生物，我所要告诫你的是，",
+      "item.epic_journey.black_copper_armor_leggings": "§e乌铜护腿",
+      "item.epic_journey.black_copper_hoe": "§e乌铜锄",
+      "gui.epic_journey.notes_of_scout_gui.label_a_whisper_fick_fowos": "",
+      "item.epic_journey.black_copper_pickaxe": "§e乌铜镐",
+      "advancements.currency_exchange.title": "货币兑换",
+      "entity.epic_journey.test_boss": "Test Boss",
+      "gui.epic_journey.notes_of_scout_gui.label_bring_me_a_few_strands_of_warmth": "正如我妄想这篇笔记能被人看到，",
+      "item.epic_journey.exchange": "兑换",
+      "advancements.friends_of_travelers.title": "旅者之友",
+      "advancements.steel_advancements.descr": "获得一个钢锭",
+      "gui.epic_journey.notes_of_scout_gui_2.label_just_to_quickly_pass_this_inform": " 只求快点把这个信息传递回去，",
+      "advancements.the_final_message_advancement.title": "最后讯息",
+      "item.epic_journey.scroll": "卷轴",
+      "entity.epic_journey.human_soldier_death": "死去的帝国士兵",
+      "advancements.the_final_message_advancement.descr": "找到已故的帝国侦察兵并得到他留下的最后信息",
+      "gui.epic_journey.notes_of_scout_gui.label_just_as_i_delude_myself_that_th": "",
+      "entity.epic_journey.bank_teller": "银行柜员",
+      "item.epic_journey.steel_hoe": "钢锄",
+      "gui.epic_journey.notes_of_scout_gui_2.label_empires_caster": "",
+      "gui.epic_journey.notes_of_scout_gui_2.label_came_from_behind_and_then_my_ch": "随即我的锁链盔甲被彻底击碎，",
+      "item.epic_journey.steel_hammer": "钢锤",
+      "gui.epic_journey.notes_of_scout_gui.label_well_we_found_that_the_source_o": "好吧，我们发现了这一切的源头似乎来自那座宫殿，",
+      "advancements.friends_of_travelers.descr": "获得一把旅行法仗",
+      "gui.epic_journey.notes_of_scout_gui_2.label_the_thing_that_parasitized_me_dr": "",
+      "entity.epic_journey.land_agent": "房产商",
+      "advancements.shepherd_staff_advancement.descr": "获得一把牧者之杖",
+      "item.epic_journey.steel_armor_chestplate": "钢胸甲",
+      "advancements.steel_advancements.title": "百炼成钢",
+      "gui.epic_journey.notes_of_scout_gui.label_vague_statethey_will_only_aimle": "只会漫无目的的集结在一起游荡，",
+      "gui.epic_journey.notes_of_scout_gui.label_according_to_the_preliminary_obs": "根据随行教士的初步观察，",
+      "gui.epic_journey.notes_of_scout_gui.label_accompanying_priest": "这个国家的人们被一种奇特的孢子寄生，",
+      "item.epic_journey.planktonic_spore_group_spawn_egg": "浮游孢子群生成蛋",
+      "advancements.abattoir_advancement.title": "动物之敌",
+      "gui.epic_journey.land_agent_trade_gui.label_30": "30",
+      "gui.epic_journey.notes_of_scout_gui.label_fick_forvoss": "“菲克·佛沃斯”",
+      "gui.epic_journey.notes_of_scout_gui_2.label_my_life_i_turned_my_head_and_ra": "我转头就跑，",
+      "gui.epic_journey.bank_teller_trade_gui.button_trade": "交易",
+      "item.epic_journey.purse": "钱袋",
+      "item.epic_journey.abattoir": "§e屠宰场",
+      "advancements.silver_ore_advancement.descr": "找到一个银矿",
+      "advancements.currency_exchange.descr": "和银行柜员进行一次货币兑换",
+      "gui.epic_journey.notes_of_scout_gui.label_this_is_the_last_message_from_a": "“这是一个帝国侦察兵留下的最后讯息：",
+      "gui.epic_journey.notes_of_scout_gui.label_that_this_note": "",
+      "effect.epic_journey.spore_parasitism": "孢子寄生",
+      "gui.epic_journey.notes_of_scout_gui_2.label_the_handwriting_ends_here": "（字迹在这里结束了）",
+      "advancements.purse_advancement.title": "财富存储",
+      "gui.epic_journey.notes_of_scout_gui.label_from_that_palace_the_closer_we": "越是靠近，越能听见一阵低语：",
+      "gui.epic_journey.land_agent_trade_gui.button_trade": "交易",
+      "advancements.fick_forvoss_advancement.descr": "§c因谎言诞生的伪神，因欲望而腐化的虚假森林",
+      "advancements.silver_coin_advancement.title": "银币！",
+      "gui.epic_journey.bank_teller_trade_gui.label_161": "32",
+      "gui.epic_journey.bank_teller_trade_gui.label_162": "16",
+      "advancements.black_copper_ingot_advancement.title": "化铜为神奇",
+      "gui.epic_journey.notes_of_scout_gui.button_next_page": "下一页",
+      "block.epic_journey.steel_block": "银块",
+      "item.epic_journey.copper_coin": "铜币",
+      "entity.epic_journey.planktonic_spore_group": "浮游孢子群",
+      "item.epic_journey.black_copper_shovel": "§e乌铜锹",
+      "advancements.bellwether.descr": "使用牧者之杖召集动物",
+      "item.epic_journey.steel_shovel": "钢锹",
+      "curios.identifier.godly_artifact": "§c神器",
+      "gui.epic_journey.notes_of_scout_gui.label_noits_not_a_forest_anymore": "不，它不是森林了！",
+      "entity.epic_journey.spore_aggregate": "孢子集群",
+      "item.epic_journey.leaf_of_deceiving_death": "§c欺骗死亡之叶",
+      "item.epic_journey.black_copper_armor_chestplate": "§e乌铜胸甲",
+      "block.epic_journey.black_copper_block": "§e乌铜块",
+      "item.epic_journey.black_copper_armor_helmet": "§e乌铜头盔",
+      "gui.epic_journey.notes_of_scout_gui_2.label_imperial_scoutis_not_to_fight_w": " 作为帝国侦察兵的我的职责并非和那种玩意儿作战，",
+      "config.epic_journey.respawn_protection": "史诗征程",
+      "advancements.property_advancement.title": "有房如此",
+      "gui.epic_journey.notes_of_scout_gui_2.label_when_we_entered_there_i_saw_som": "当我们进入那里时，我见到了这辈子都没见过的东西，",
+      "advancements.harvest_advancement.title": "收获日",
+      "entity.epic_journey.the_lost": "迷失者",
+      "config.epic_journey.epic_journey_configuration": "史诗征程配置文件",
+      "item_group.epic_journey.epic_journey": "§5史诗征程",
+      "item.epic_journey.black_copper_bow": "乌铜弓",
+      "item.epic_journey.black_copper_armor_boots": "§e乌铜靴",
+      "advancements.begins.title": "征程开始了",
+      "item.epic_journey.human_soldier_death_spawn_egg": "死去的帝国士兵生成蛋",
+      "item.epic_journey.building_spawn_bank": "建筑：银行",
+      "gui.epic_journey.notes_of_scout_gui_2.label_at_this_time": "眼皮越来越沉了...",
+      "item.epic_journey.shepherds_staff": "§5牧者之杖",
+      "advancements.copper_coin_advancement.descr": "获得一个铜币",
+      "gui.epic_journey.notes_of_scout_gui_2.label_shattered": "身体被什么东西打中，看来寄生我的东西就是这时钻进我的身体的，",
+      "item.epic_journey.steel_axe": "钢斧",
+      "item.epic_journey.steel_ingot": "钢锭",
+      "gui.epic_journey.notes_of_scout_gui.label_just_like_the_empires_most_impo": "就如帝国最重要的纳贡属国一样，",
+      "item.epic_journey.notes_of_scout": "侦察兵的笔记",
+      "advancements.skinner_advancement.title": "痛苦之皮",
+      "item.epic_journey.test_weapon": "Test Weapon",
+      "item.epic_journey.house_property_big_sized_wooden_house": "房产：大型木屋",
+      "item.epic_journey.harvest": "§e收获",
+      "item.epic_journey.silver_dust": "银尘",
+      "advancements.skinner_advancement.descr": "获得一把剥皮者",
+      "gui.epic_journey.notes_of_scout_gui_2.button_this_is_too_scary": "这太可怕了...",
+      "advancements.shepherd_staff_advancement.title": "牧群",
+      "item.epic_journey.the_lost_spawn_egg": "迷失者生成蛋",
+      "gui.epic_journey.notes_of_scout_gui_2.label_may_i_be_blessed_no_matter_whic": "愿我被保佑，无论哪位神明，",
+      "advancements.begins.descr": "当你醒来时，你发现了身边有一个卷轴",
+      "advancements.gold_coin_advancement.descr": "获得一个金币",
+      "item.epic_journey.building_underground_tomb": "地牢：地下坟墓",
+      "item.epic_journey.silver_ingot": "银锭",
+      "entity.epic_journey.the_iniquity_of_fake_god": "伪神之孽",
+      "item.epic_journey.black_copper_shield": "§e乌铜盾",
+      "advancements.copper_coin_advancement.title": "铜币",
+      "item.epic_journey.black_copper_axe": "§e乌铜斧",
+      "gui.epic_journey.notes_of_scout_gui.label_counterattack_i_privately_call": "我私自把他们称为“迷失者“。",
+      "gui.epic_journey.bank_teller_trade_gui.label_32": "32",
+      "item.epic_journey.house_property_medium_sized_wooden_house": "房产：中型木屋",
+      "item.epic_journey.building_sales_center": "建筑：售楼中心",
+      "item.epic_journey.gold_silver_mixed_powder": "金-银混合粉末",
+      "item.epic_journey.silver_coin": "银币",
+      "item.epic_journey.steel_armor_boots": "钢靴",
+      "item.epic_journey.black_copper_sword": "§e乌铜剑",
+      "item.epic_journey.gold_coin": "金币",
+      "item.epic_journey.bank_teller_spawn_egg": "银行柜员生成蛋",
+      "gui.epic_journey.notes_of_scout_gui.label_it_is_completely_different_from": "与它原来的内在彻底不同了！"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "epic_journey",
+    "modName": "Epic Journey",
+    "version": "0.0.5",
+    "description": "An unforgettable journey.",
+    "author": "CJiangqiu",
+    "websiteURL": "https://github.com/CJiangqiu/EpicJourney",
+    "license": "Mozilla Public License 2.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "background",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "patchouli",
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.epicjourney",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

@@ -1,0 +1,30 @@
+{
+  "the_lost_hurt": {
+    "sounds": [
+      {
+        "name": "epic_journey:the_lost_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "the_lost_death": {
+    "sounds": [
+      {
+        "name": "epic_journey:the_lost_death",
+        "stream": false
+      }
+    ]
+  },
+  "the_lost_ambient": {
+    "sounds": [
+      {
+        "name": "epic_journey:the_lost_ambient",
+        "stream": false
+      },
+      {
+        "name": "epic_journey:the_lost_ambient_2",
+        "stream": false
+      }
+    ]
+  }
+}

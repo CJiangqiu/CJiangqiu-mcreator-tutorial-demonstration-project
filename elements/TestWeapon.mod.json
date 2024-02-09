@@ -1,0 +1,45 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "test_weapon",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Test Weapon",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:EpicJourney"
+    },
+    "harvestLevel": 1024,
+    "efficiency": 1024.0,
+    "attackSpeed": 100.0,
+    "enchantability": 1024,
+    "damageVsEntity": 1024.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "TestWeaponYouJiKongQiShiShiTiDeWeiZhi"
+    },
+    "onEntityHitWith": {
+      "name": "TestWeaponShiTiBeiGongJuJiZhongShi"
+    },
+    "onItemInInventoryTick": {
+      "name": "TestWeaponGongJuChuXianZaiWuPinLanShiMeiKeFaSheng"
+    },
+    "onItemInUseTick": {
+      "name": "TestWeaponGongJuChuXianZaiWuPinLanShiMeiKeFaSheng"
+    }
+  }
+}

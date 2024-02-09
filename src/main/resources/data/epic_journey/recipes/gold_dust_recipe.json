@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "epic_journey:steel_hammer"
+  },
+  "base": {
+    "item": "minecraft:gold_ingot"
+  },
+  "addition": {
+    "item": "minecraft:gold_ingot"
+  },
+  "result": {
+    "item": "epic_journey:gold_dust"
+  }
+}

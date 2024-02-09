@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlackCopperIngot"
+      },
+      {
+        "value": "CUSTOM:BlackCopperIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlackCopperIngot"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlackCopperAxe"
+    },
+    "name": "black_copper_axe_recipe",
+    "namespace": "mod"
+  }
+}

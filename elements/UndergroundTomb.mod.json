@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "underground_tomb",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 24,
+    "separation": 16,
+    "restrictionBiomes": [
+      {
+        "value": "#is_overworld"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE",
+    "terrainAdaptation": "bury",
+    "generationStep": "UNDERGROUND_STRUCTURES"
+  }
+}

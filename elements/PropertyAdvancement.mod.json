@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Having a house like this one",
+    "achievementDescription": "Buy a house property",
+    "achievementIcon": {
+      "value": "CUSTOM:HousePropertyBigSizedWoodenHouse"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 5,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:Begins"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"74\" y=\"112\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

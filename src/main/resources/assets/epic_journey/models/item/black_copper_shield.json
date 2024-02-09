@@ -1,0 +1,15 @@
+{
+  "parent": "epic_journey:custom/black_copper_shield",
+  "textures": {
+    "0": "epic_journey:block/black_copper_shield",
+    "particle": "epic_journey:item/black_copper_shield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "epic_journey:item/black_copper_shield_0"
+    }
+  ]
+}

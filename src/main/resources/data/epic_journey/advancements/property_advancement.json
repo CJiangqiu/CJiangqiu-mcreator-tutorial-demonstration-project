@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "epic_journey:house_property_big_sized_wooden_house"
+    },
+    "title": {
+      "translate": "advancements.property_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.property_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "property_advancement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "epic_journey:begins"
+}

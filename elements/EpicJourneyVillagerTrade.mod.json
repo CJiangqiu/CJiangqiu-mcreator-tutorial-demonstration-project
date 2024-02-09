@@ -1,0 +1,2223 @@
+{
+  "_fv": 57,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "ARMORER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Items.IRON_INGOT"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SteelIngot"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SteelArmor.helmet"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SteelArmor.body"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 7,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SteelArmor.legs"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SteelArmor.boots"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BlackCopperArmor.helmet"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BlackCopperArmor.body"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 7,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BlackCopperArmor.legs"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BlackCopperArmor.boots"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHERITE_HELMET"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 5,
+            "xp": 20,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHERITE_CHESTPLATE"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 5,
+            "xp": 20,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHERITE_LEGGINGS"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 5,
+            "xp": 20,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHERITE_BOOTS"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 5,
+            "xp": 20,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BlackCopperShield"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 20,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SteelIngot"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BlackCopperIngot"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "BUTCHER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.LEAD"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "Items.LEATHER"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.SADDLE"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.RABBIT_FOOT"
+            },
+            "countOffer": 2,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.COOKED_BEEF"
+            },
+            "countOffer": 2,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.COOKED_PORKCHOP"
+            },
+            "countOffer": 4,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.COOKED_CHICKEN"
+            },
+            "countOffer": 5,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.COOKED_MUTTON"
+            },
+            "countOffer": 3,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Abattoir"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 1,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Abattoir"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 1,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Abattoir"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CARTOGRAPHER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.MAP"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.SPYGLASS"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.CLOCK"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 6,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.COMPASS"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.BRUSH"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.CARTOGRAPHY_TABLE"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:TravelStaff"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.APPLE"
+            },
+            "countOffer": 2,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.GLASS_BOTTLE"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.GOLDEN_APPLE#0"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.GOLDEN_APPLE#1"
+            },
+            "countOffer": 4,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.TOTEM_OF_UNDYING"
+            },
+            "countOffer": 4,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.DRAGON_BREATH"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.END_CRYSTAL"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.ENDER_PEARL"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.ENDER_EYE"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.BREWING_STAND"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.SPIDER_EYE"
+            },
+            "countOffer": 2,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.FERMENTED_SPIDER_EYE"
+            },
+            "countOffer": 2,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHER_WART"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.BLAZE_ROD"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.MAGMA_CREAM"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.CAULDRON"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "FARMER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.CARROT"
+            },
+            "countOffer": 4,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.POTATO"
+            },
+            "countOffer": 4,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.BREAD"
+            },
+            "countOffer": 3,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.MELON"
+            },
+            "countOffer": 8,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.BEETROOT"
+            },
+            "countOffer": 4,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.GOLDEN_CARROT"
+            },
+            "countOffer": 4,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.PUMPKIN"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.MELON_BLOCK"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Harvest"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Harvest"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 1,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Harvest"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 1,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "FISHERMAN"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.FISHING_ROD"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.FISH#0"
+            },
+            "countOffer": 2,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.FISH#1"
+            },
+            "countOffer": 2,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.FISH#3"
+            },
+            "countOffer": 2,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.COOKED_FISH#0"
+            },
+            "countOffer": 2,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.COOKED_FISH#1"
+            },
+            "countOffer": 2,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.PRISMARINE_SHARD"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.HEART_OF_THE_SEA"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NAUTILUS_SHELL"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.SCUTE"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.AXOLOTL_BUCKET"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "FLETCHER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.ARROW"
+            },
+            "countOffer": 4,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.BOW"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.CROSSBOW"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.SPECTRAL_ARROW"
+            },
+            "countOffer": 2,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.FLETCHING_TABLE"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "LEATHERWORKER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.LEATHER"
+            },
+            "countOffer": 4,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.LEATHER_HELMET"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.LEATHER_CHESTPLATE"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.LEATHER_LEGGINGS"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.LEATHER_BOOTS"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.LEATHER_HORSE_ARMOR"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.RABBIT_HIDE"
+            },
+            "countOffer": 2,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Skinner"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 1,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Skinner"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 1,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Skinner"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 2,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "LIBRARIAN"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.BOOK"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.WRITABLE_BOOK"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.BOOKSHELF"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EXPERIENCE_BOTTLE"
+            },
+            "countOffer": 4,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.ENCHANTING_TABLE"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 20,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.DYE#4"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "MASON"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.STONECUTTER"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.OBSIDIAN"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.CRYING_OBSIDIAN"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.COBBLESTONE"
+            },
+            "countOffer": 16,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.FLINT"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "SHEPHERD"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.SHEARS"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.WOOL#0"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ShepherdsStaff"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "TOOLSMITH"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SteelPickaxe"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SteelAxe"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SteelShovel"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SteelHoe"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BlackCopperPickaxe"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BlackCopperAxe"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BlackCopperShovel"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BlackCopperHoe"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHERITE_SHOVEL"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 20,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHERITE_PICKAXE"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 20,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHERITE_AXE"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 20,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHERITE_HOE"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 20,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "WEAPONSMITH"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SteelSword"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BlackCopperSword"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CopperCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.SHIELD"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BlackCopperShield"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHERITE_SWORD"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

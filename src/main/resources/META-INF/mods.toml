@@ -1,0 +1,42 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Mozilla Public License 2.0"
+
+[[mods]]
+modId="epic_journey"
+version="0.0.5"
+displayName="Epic Journey"
+displayURL="https://github.com/CJiangqiu/EpicJourney"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="CJiangqiu"
+description="An unforgettable journey."
+
+[[dependencies.epic_journey]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.epic_journey]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.epic_journey]]
+    modId="patchouli"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.epic_journey]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

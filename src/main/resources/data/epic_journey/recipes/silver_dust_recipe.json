@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "tag": "forge:hammer"
+  },
+  "base": {
+    "item": "epic_journey:silver_ingot"
+  },
+  "addition": {
+    "item": "epic_journey:silver_ingot"
+  },
+  "result": {
+    "item": "epic_journey:silver_dust"
+  }
+}

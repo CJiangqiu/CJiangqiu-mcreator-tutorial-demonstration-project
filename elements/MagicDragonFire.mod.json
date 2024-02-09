@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.enderdragon.ambient"
+    },
+    "igniteFire": true,
+    "power": 1.0,
+    "damage": 5.0,
+    "knockback": 2,
+    "entityModel": "Modelmagic_dragon_fire",
+    "customModelTexture": "magic_dragon_fire.png",
+    "onHitsBlock": {
+      "name": "MagicDragonFireDanSheWuJiZhongFangKuaiShi"
+    },
+    "onHitsPlayer": {
+      "name": "MagicDragonFireDanSheWuJiZhongShiTiShi"
+    },
+    "onHitsEntity": {
+      "name": "MagicDragonFireDanSheWuJiZhongShiTiShi"
+    }
+  }
+}

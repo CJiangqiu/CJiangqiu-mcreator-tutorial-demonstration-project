@@ -1,0 +1,36 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "harvest",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "§eHarvest",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:EpicJourney"
+    },
+    "harvestLevel": 1,
+    "efficiency": 6.0,
+    "attackSpeed": 4.0,
+    "enchantability": 22,
+    "damageVsEntity": 4.0,
+    "usageCount": 300,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "HarvestYouJiFangKuaiShiFangKuaiDeWeiZhi"
+    }
+  }
+}

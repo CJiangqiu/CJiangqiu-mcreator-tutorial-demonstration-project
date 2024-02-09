@@ -1,0 +1,9 @@
+{
+  "_fv": 57,
+  "_type": "curiosslot",
+  "definition": {
+    "texture": "godly_artifact.png",
+    "name": "§cGodly Artifact",
+    "amount": 1
+  }
+}

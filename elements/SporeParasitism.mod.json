@@ -1,0 +1,17 @@
+{
+  "_fv": 57,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Spore Parasitism",
+    "icon": "spore_parasitism.png",
+    "color": {
+      "value": -10027162,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true
+  }
+}

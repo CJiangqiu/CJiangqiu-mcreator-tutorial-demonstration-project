@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "epic_journey:shepherds_staff"
+    },
+    "title": {
+      "translate": "advancements.bellwether.title"
+    },
+    "description": {
+      "translate": "advancements.bellwether.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bellwether": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "epic_journey:shepherd_staff_advancement"
+}

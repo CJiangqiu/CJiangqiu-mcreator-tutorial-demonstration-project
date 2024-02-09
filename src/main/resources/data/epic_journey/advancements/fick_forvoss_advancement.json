@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_mushroom"
+    },
+    "title": {
+      "translate": "advancements.fick_forvoss_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.fick_forvoss_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fick_forvoss_advancement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "epic_journey:fick_forvoss"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "epic_journey:begins"
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "epic_journey:copper_coin"
+    },
+    "title": {
+      "translate": "advancements.copper_coin_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.copper_coin_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "copper_coin_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "epic_journey:copper_coin"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "epic_journey:purse_recipe"
+    ]
+  },
+  "parent": "epic_journey:begins"
+}

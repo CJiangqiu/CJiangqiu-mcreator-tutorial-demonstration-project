@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "§5Epic Journey:Building",
+    "icon": {
+      "value": "CUSTOM:BuildingSpawnBank"
+    },
+    "showSearch": false
+  }
+}

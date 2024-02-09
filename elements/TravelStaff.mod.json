@@ -1,0 +1,39 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "travel_staff",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "§bTravel Staff",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:EpicJourney"
+    },
+    "harvestLevel": 1,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 2.0,
+    "usageCount": 300,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "TravelStaffYouJiKongQiShiShiTiDeWeiZhi"
+    },
+    "onItemInUseTick": {
+      "name": "TravelStaffGongJuChuXianZaiShouZhongShiMeiKeFaSheng"
+    }
+  }
+}

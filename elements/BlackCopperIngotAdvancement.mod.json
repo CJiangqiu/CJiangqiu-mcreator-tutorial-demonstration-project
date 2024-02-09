@@ -1,0 +1,37 @@
+{
+  "_fv": 57,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Find a new use for copper that has been discarded",
+    "achievementDescription": "Make a black copper ingot",
+    "achievementIcon": {
+      "value": "CUSTOM:BlackCopperIngot"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "BlackCopperBlockRecipe",
+      "BlackCopperBlockTransformRecipe",
+      "BlackCopperArmorHelmetRecipe",
+      "BlackCopperArmorChestplateRecipe",
+      "BlackCopperArmorLeggingsRecipe",
+      "BlackCopperArmorBootsRecipe",
+      "BlackCopperPickaxeRecipe",
+      "BlackCopperAxeRecipe",
+      "BlackCopperSwordRecipe",
+      "BlackCopperShovelRecipe",
+      "BlackCopperHoeRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 5,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:SilverOreAdvancement"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"155\" y=\"159\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:BlackCopperIngot</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "epic_journey:travel_staff"
+    },
+    "title": {
+      "translate": "advancements.friends_of_travelers.title"
+    },
+    "description": {
+      "translate": "advancements.friends_of_travelers.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "friends_of_travelers": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "epic_journey:travel_staff"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "epic_journey:begins"
+}

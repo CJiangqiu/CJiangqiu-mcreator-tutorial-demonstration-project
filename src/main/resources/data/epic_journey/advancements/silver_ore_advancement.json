@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "epic_journey:silver_ore"
+    },
+    "title": {
+      "translate": "advancements.silver_ore_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.silver_ore_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "silver_ore_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "epic_journey:silver_ore"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "epic_journey:silver_ore_smelting",
+      "epic_journey:silver_dust_recipe",
+      "epic_journey:gold_silver_mixed_powder_recipe",
+      "epic_journey:black_copper_ingot_recipe",
+      "epic_journey:gold_dust_recipe"
+    ]
+  },
+  "parent": "epic_journey:steel_advancements"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "tag": "forge:hammer"
+  },
+  "base": {
+    "item": "epic_journey:silver_dust"
+  },
+  "addition": {
+    "item": "epic_journey:gold_silver_mixed_powder"
+  },
+  "result": {
+    "item": "epic_journey:gold_silver_mixed_powder"
+  }
+}

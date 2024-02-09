@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "epic_journey:steel_ingot"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "epic_journey:steel_hoe",
+    "count": 1
+  }
+}

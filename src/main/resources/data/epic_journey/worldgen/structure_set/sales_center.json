@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "epic_journey:sales_center",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 30,
+    "separation": 20,
+    "salt": 68365710
+  }
+}

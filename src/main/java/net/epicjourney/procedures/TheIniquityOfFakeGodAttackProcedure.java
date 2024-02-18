@@ -12,6 +12,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.util.RandomSource;
@@ -20,13 +21,14 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
 
-import net.epicjourney.entity.TheLostEntity;
+import net.epicjourney.init.EpicJourneyModMobEffects;
+import net.epicjourney.entity.TheIniquityOfFakeGodEntity;
 import net.epicjourney.EpicJourneyMod;
 
 import javax.annotation.Nullable;
 
 @Mod.EventBusSubscriber
-public class TheLostAttackProcedure {
+public class TheIniquityOfFakeGodAttackProcedure {
 	@SubscribeEvent
 	public static void onEntityAttacked(LivingAttackEvent event) {
 		if (event != null && event.getEntity() != null) {
@@ -41,19 +43,21 @@ public class TheLostAttackProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
 			return;
-		if (sourceentity instanceof TheLostEntity) {
+		if (sourceentity instanceof TheIniquityOfFakeGodEntity) {
 			if (event != null && event.isCancelable()) {
 				event.setCanceled(true);
 			}
-			if (sourceentity instanceof TheLostEntity) {
-				((TheLostEntity) sourceentity).setAnimation("animation.model.attack");
+			if (sourceentity instanceof TheIniquityOfFakeGodEntity) {
+				((TheIniquityOfFakeGodEntity) sourceentity).setAnimation("animation.model.attack");
 			}
-			EpicJourneyMod.queueServerWork(30, () -> {
+			EpicJourneyMod.queueServerWork(40, () -> {
 				if (Math.sqrt(Math.pow(sourceentity.getX() - entity.getX(), 2) + Math.pow(sourceentity.getY() - entity.getY(), 2) + Math.pow(sourceentity.getZ() - entity.getZ(), 2)) <= 2
 						&& (sourceentity instanceof LivingEntity _entity ? _entity.hasLineOfSight(entity) : false)) {
 					if (!(entity instanceof LivingEntity && ((LivingEntity) entity).isUsingItem() && ((LivingEntity) entity).getUseItem().getItem().equals(Items.SHIELD))) {
 						entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)),
 								(float) ((LivingEntity) sourceentity).getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.ATTACK_DAMAGE).getBaseValue());
+						if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+							_entity.addEffect(new MobEffectInstance(EpicJourneyModMobEffects.SPORE_PARASITISM.get(), 100, 2));
 					} else {
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
@@ -63,7 +67,7 @@ public class TheLostAttackProcedure {
 							}
 						}
 						{
-							ItemStack _ist = (entity instanceof LivingEntity _entUseItem13 ? _entUseItem13.getUseItem() : ItemStack.EMPTY);
+							ItemStack _ist = (entity instanceof LivingEntity _entUseItem14 ? _entUseItem14.getUseItem() : ItemStack.EMPTY);
 							if (_ist.hurt(1, RandomSource.create(), null)) {
 								_ist.shrink(1);
 								_ist.setDamageValue(0);

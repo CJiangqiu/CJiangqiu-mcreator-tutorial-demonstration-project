@@ -3,8 +3,8 @@
   "biomes": "epic_journey:fick_forvoss",
   "spawners": {
     "type": "epic_journey:the_iniquity_of_fake_god",
-    "weight": 10,
+    "weight": 20,
     "minCount": 1,
-    "maxCount": 4
+    "maxCount": 1
   }
 }

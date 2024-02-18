@@ -117,7 +117,7 @@
     "animation10": "",
     "enable2": true,
     "enable3": true,
-    "enable4": true,
+    "enable4": false,
     "enable5": false,
     "enable6": false,
     "enable7": false,
@@ -140,10 +140,10 @@
     "height": 1.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 10,
+    "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
-    "maxNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:FickForvoss"

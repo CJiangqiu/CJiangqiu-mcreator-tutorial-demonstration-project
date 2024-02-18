@@ -20,13 +20,13 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
 
-import net.epicjourney.entity.TheLostEntity;
+import net.epicjourney.entity.SporeAggregateEntity;
 import net.epicjourney.EpicJourneyMod;
 
 import javax.annotation.Nullable;
 
 @Mod.EventBusSubscriber
-public class TheLostAttackProcedure {
+public class SporeAggregateAttackProcedure {
 	@SubscribeEvent
 	public static void onEntityAttacked(LivingAttackEvent event) {
 		if (event != null && event.getEntity() != null) {
@@ -41,15 +41,15 @@ public class TheLostAttackProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
 			return;
-		if (sourceentity instanceof TheLostEntity) {
+		if (sourceentity instanceof SporeAggregateEntity) {
 			if (event != null && event.isCancelable()) {
 				event.setCanceled(true);
 			}
-			if (sourceentity instanceof TheLostEntity) {
-				((TheLostEntity) sourceentity).setAnimation("animation.model.attack");
+			if (sourceentity instanceof SporeAggregateEntity) {
+				((SporeAggregateEntity) sourceentity).setAnimation("animation.model.attack");
 			}
-			EpicJourneyMod.queueServerWork(30, () -> {
-				if (Math.sqrt(Math.pow(sourceentity.getX() - entity.getX(), 2) + Math.pow(sourceentity.getY() - entity.getY(), 2) + Math.pow(sourceentity.getZ() - entity.getZ(), 2)) <= 2
+			EpicJourneyMod.queueServerWork(40, () -> {
+				if (Math.sqrt(Math.pow(sourceentity.getX() - entity.getX(), 2) + Math.pow(sourceentity.getY() - entity.getY(), 2) + Math.pow(sourceentity.getZ() - entity.getZ(), 2)) <= 3
 						&& (sourceentity instanceof LivingEntity _entity ? _entity.hasLineOfSight(entity) : false)) {
 					if (!(entity instanceof LivingEntity && ((LivingEntity) entity).isUsingItem() && ((LivingEntity) entity).getUseItem().getItem().equals(Items.SHIELD))) {
 						entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)),

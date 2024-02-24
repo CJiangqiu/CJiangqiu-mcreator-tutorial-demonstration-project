@@ -68,6 +68,7 @@ public class EpicJourneyModItems {
 	public static final RegistryObject<Item> TEST_BOSS_SPAWN_EGG = REGISTRY.register("test_boss_spawn_egg", () -> new ForgeSpawnEggItem(EpicJourneyModEntities.TEST_BOSS, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> TEST_WEAPON = REGISTRY.register("test_weapon", () -> new TestWeaponItem());
 	public static final RegistryObject<Item> SCROLL = REGISTRY.register("scroll", () -> new ScrollItem());
+	public static final RegistryObject<Item> EPIC_JOURNEY_MUSIC = REGISTRY.register("epic_journey_music", () -> new EpicJourneyMusicItem());
 	public static final RegistryObject<Item> COPPER_COIN = REGISTRY.register("copper_coin", () -> new CopperCoinItem());
 	public static final RegistryObject<Item> SILVER_COIN = REGISTRY.register("silver_coin", () -> new SilverCoinItem());
 	public static final RegistryObject<Item> GOLD_COIN = REGISTRY.register("gold_coin", () -> new GoldCoinItem());
@@ -123,10 +124,9 @@ public class EpicJourneyModItems {
 	public static final RegistryObject<Item> HOUSE_PROPERTY_SMALL_SIZED_WOODEN_HOUSE = REGISTRY.register("house_property_small_sized_wooden_house", () -> new BuildingSmallSizedWoodenHouseItem());
 	public static final RegistryObject<Item> HOUSE_PROPERTY_MEDIUM_SIZED_WOODEN_HOUSE = REGISTRY.register("house_property_medium_sized_wooden_house", () -> new HousePropertyMediumSizedWoodenHouseItem());
 	public static final RegistryObject<Item> HOUSE_PROPERTY_BIG_SIZED_WOODEN_HOUSE = REGISTRY.register("house_property_big_sized_wooden_house", () -> new HousePropertyBigSizedWoodenHouseItem());
+	public static final RegistryObject<Item> DUNGEON_THE_PALACE_OF_FAKE_GOD = REGISTRY.register("dungeon_the_palace_of_fake_god", () -> new DungeonThePalaceOfFakeGodItem());
 	public static final RegistryObject<Item> EXCHANGE = REGISTRY.register("exchange", () -> new ExchangeItem());
 	public static final RegistryObject<Item> BLACK_COPPER_BOW = REGISTRY.register("black_copper_bow", () -> new BlackCopperBowItem());
-	public static final RegistryObject<Item> EPIC_JOURNEY_MUSIC = REGISTRY.register("epic_journey_music", () -> new EpicJourneyMusicItem());
-	public static final RegistryObject<Item> DUNGEON_THE_PALACE_OF_FAKE_GOD = REGISTRY.register("dungeon_the_palace_of_fake_god", () -> new DungeonThePalaceOfFakeGodItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

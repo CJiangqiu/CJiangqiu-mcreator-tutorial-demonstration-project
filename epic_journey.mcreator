@@ -18,7 +18,7 @@
     {
       "name": "EpicJourney",
       "type": "tab",
-      "sortid": 51,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "epic_journey",
@@ -29,7 +29,7 @@
     {
       "name": "Task1",
       "type": "procedure",
-      "sortid": 52,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "task_1",
@@ -48,7 +48,7 @@
     {
       "name": "ScrollGui",
       "type": "gui",
-      "sortid": 53,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "scroll_gui",
@@ -62,7 +62,7 @@
     {
       "name": "SteelIngot",
       "type": "item",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot",
@@ -76,7 +76,7 @@
     {
       "name": "SteelBlock",
       "type": "block",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_block",
@@ -92,7 +92,7 @@
     {
       "name": "SteelPickaxe",
       "type": "tool",
-      "sortid": 16,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_pickaxe",
@@ -106,7 +106,7 @@
     {
       "name": "SteelAxe",
       "type": "tool",
-      "sortid": 15,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_axe",
@@ -120,7 +120,7 @@
     {
       "name": "SteelSword",
       "type": "tool",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_sword",
@@ -134,7 +134,7 @@
     {
       "name": "SteelShovel",
       "type": "tool",
-      "sortid": 18,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_shovel",
@@ -148,7 +148,7 @@
     {
       "name": "SteelHoe",
       "type": "tool",
-      "sortid": 19,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_hoe",
@@ -162,7 +162,7 @@
     {
       "name": "SteelArmor",
       "type": "armor",
-      "sortid": 21,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_armor",
@@ -179,7 +179,7 @@
     {
       "name": "SteelIngotRecipe",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot_recipe",
@@ -192,7 +192,7 @@
     {
       "name": "SteelBlockRecipe",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_block_recipe",
@@ -205,7 +205,7 @@
     {
       "name": "SteelBlockIngotRecipe",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_block_ingot_recipe",
@@ -218,7 +218,7 @@
     {
       "name": "SteelPickaxeRecipe",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_pickaxe_recipe",
@@ -231,7 +231,7 @@
     {
       "name": "SteelAxeRecipe",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_axe_recipe",
@@ -244,7 +244,7 @@
     {
       "name": "SteelSwordRecipe",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_sword_recipe",
@@ -257,7 +257,7 @@
     {
       "name": "SteelShovelRecipe",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_shovel_recipe",
@@ -270,7 +270,7 @@
     {
       "name": "SteelHoeRecipe",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_hoe_recipe",
@@ -283,7 +283,7 @@
     {
       "name": "SteelHelmetRecipe",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_helmet_recipe",
@@ -296,7 +296,7 @@
     {
       "name": "SteelChestplateRecipe",
       "type": "recipe",
-      "sortid": 63,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_chestplate_recipe",
@@ -309,7 +309,7 @@
     {
       "name": "SteelLeggingsRecipe",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_leggings_recipe",
@@ -322,7 +322,7 @@
     {
       "name": "SteelBootsRecipe",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_boots_recipe",
@@ -335,7 +335,7 @@
     {
       "name": "SteelAdvancements",
       "type": "achievement",
-      "sortid": 67,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_advancements",
@@ -363,7 +363,7 @@
     {
       "name": "TestWeaponYouJiKongQiShiShiTiDeWeiZhi",
       "type": "procedure",
-      "sortid": 68,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_weapon_you_ji_kong_qi_shi_shi_ti_de_wei_zhi",
@@ -412,7 +412,7 @@
     {
       "name": "TestBossDangShiTiShouShangShi",
       "type": "procedure",
-      "sortid": 69,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_boss_dang_shi_ti_shou_shang_shi",
@@ -431,7 +431,7 @@
     {
       "name": "TestWeaponShiTiBeiGongJuJiZhongShi",
       "type": "procedure",
-      "sortid": 70,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_weapon_shi_ti_bei_gong_ju_ji_zhong_shi",
@@ -454,7 +454,7 @@
     {
       "name": "CopperCoin",
       "type": "item",
-      "sortid": 4,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_coin",
@@ -468,7 +468,7 @@
     {
       "name": "SilverCoin",
       "type": "item",
-      "sortid": 5,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_coin",
@@ -482,7 +482,7 @@
     {
       "name": "GoldCoin",
       "type": "item",
-      "sortid": 6,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_coin",
@@ -496,7 +496,7 @@
     {
       "name": "Coin",
       "type": "tag",
-      "sortid": 71,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coin",
@@ -509,7 +509,7 @@
     {
       "name": "PurseGui",
       "type": "gui",
-      "sortid": 72,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purse_gui",
@@ -523,7 +523,7 @@
     {
       "name": "Purse",
       "type": "item",
-      "sortid": 7,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purse",
@@ -538,7 +538,7 @@
     {
       "name": "SteelIngotTag",
       "type": "tag",
-      "sortid": 73,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot_tag",
@@ -551,7 +551,7 @@
     {
       "name": "CopperCoinDrop",
       "type": "procedure",
-      "sortid": 74,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_coin_drop",
@@ -586,7 +586,7 @@
     {
       "name": "CopperCoinAdvancement",
       "type": "achievement",
-      "sortid": 75,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_coin_advancement",
@@ -599,7 +599,7 @@
     {
       "name": "PurseRecipe",
       "type": "recipe",
-      "sortid": 76,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purse_recipe",
@@ -612,7 +612,7 @@
     {
       "name": "PurseAdvancement",
       "type": "achievement",
-      "sortid": 77,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purse_advancement",
@@ -625,7 +625,7 @@
     {
       "name": "SilverCoinAdvancement",
       "type": "achievement",
-      "sortid": 78,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_coin_advancement",
@@ -638,7 +638,7 @@
     {
       "name": "GoldCoinAdvancement",
       "type": "achievement",
-      "sortid": 79,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_coin_advancement",
@@ -651,7 +651,7 @@
     {
       "name": "SilverCoinDrop",
       "type": "procedure",
-      "sortid": 80,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_coin_drop",
@@ -686,7 +686,7 @@
     {
       "name": "GoldCoinDrop",
       "type": "procedure",
-      "sortid": 81,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_coin_drop",
@@ -721,7 +721,7 @@
     {
       "name": "GoldCoinTrade",
       "type": "villagertrade",
-      "sortid": 82,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_coin_trade",
@@ -732,7 +732,7 @@
     {
       "name": "TestWeaponGongJuChuXianZaiWuPinLanShiMeiKeFaSheng",
       "type": "procedure",
-      "sortid": 83,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_weapon_player_protect_3",
@@ -751,7 +751,7 @@
     {
       "name": "TestWeaponPlayerProtect",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_weapon_player_protect",
@@ -770,7 +770,7 @@
     {
       "name": "TestWeaponPlayerProtect2",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_weapon_player_protect_2",
@@ -789,7 +789,7 @@
     {
       "name": "TestWeaponPlayerProtect3",
       "type": "procedure",
-      "sortid": 86,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_weapon_player_protect_3",
@@ -808,7 +808,7 @@
     {
       "name": "BankTeller",
       "type": "livingentity",
-      "sortid": 38,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bank_teller",
@@ -823,7 +823,7 @@
     {
       "name": "BankTellerSpawn",
       "type": "procedure",
-      "sortid": 87,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bank_teller_spawn_condition",
@@ -858,7 +858,7 @@
     {
       "name": "BankTellerTrade1",
       "type": "procedure",
-      "sortid": 88,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bank_teller_trade_1",
@@ -877,7 +877,7 @@
     {
       "name": "BankTellerShiTiChuShiShengChengShi",
       "type": "procedure",
-      "sortid": 89,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bank_teller_shi_ti_chu_shi_sheng_cheng_shi",
@@ -896,7 +896,7 @@
     {
       "name": "BankTellerTrade2",
       "type": "procedure",
-      "sortid": 90,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bank_teller_trade_2",
@@ -915,7 +915,7 @@
     {
       "name": "BankTellerTradeGui",
       "type": "gui",
-      "sortid": 91,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bank_teller_trade_gui",
@@ -930,7 +930,7 @@
     {
       "name": "Exchange",
       "type": "item",
-      "sortid": 92,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exchange",
@@ -944,7 +944,7 @@
     {
       "name": "CurrencyExchange",
       "type": "achievement",
-      "sortid": 93,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "currency_exchange",
@@ -957,7 +957,7 @@
     {
       "name": "InHouseJudgment",
       "type": "procedure",
-      "sortid": 94,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "in_house_judgment",
@@ -989,7 +989,7 @@
     {
       "name": "OutHouseJudgment",
       "type": "procedure",
-      "sortid": 95,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "out_house_judgment",
@@ -1021,7 +1021,7 @@
     {
       "name": "HidingJudgment",
       "type": "procedure",
-      "sortid": 96,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hiding_judgment",
@@ -1053,7 +1053,7 @@
     {
       "name": "Bank",
       "type": "structure",
-      "sortid": 97,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bank",
@@ -1068,7 +1068,7 @@
     {
       "name": "BuildingSpawnBankYouJiFangKuaiShiFangKuaiDeWeiZhi",
       "type": "procedure",
-      "sortid": 98,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "building_spawn_bank_you_ji_fang_kuai_shi_fang_kuai_de_wei_zhi",
@@ -1103,7 +1103,7 @@
     {
       "name": "BuildingSpawnBank",
       "type": "item",
-      "sortid": 45,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "building_spawn_bank",
@@ -1117,7 +1117,7 @@
     {
       "name": "BankLootTable",
       "type": "loottable",
-      "sortid": 99,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bank_loot_table",
@@ -1130,7 +1130,7 @@
     {
       "name": "UndergroundTombLootTable",
       "type": "loottable",
-      "sortid": 100,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "underground_tomb_loot_table",
@@ -1143,7 +1143,7 @@
     {
       "name": "UndergroundTomb",
       "type": "structure",
-      "sortid": 101,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "underground_tomb",
@@ -1158,7 +1158,7 @@
     {
       "name": "BuildingUndergroundTomb",
       "type": "item",
-      "sortid": 47,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "building_underground_tomb",
@@ -1172,7 +1172,7 @@
     {
       "name": "BuildingUndergroundTombYouJiFangKuaiShiFangKuaiDeWeiZhi",
       "type": "procedure",
-      "sortid": 102,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "building_underground_tomb_you_ji_fang_kuai_shi_fang_kuai_de_wei_zhi",
@@ -1207,7 +1207,7 @@
     {
       "name": "BlackCopperIngot",
       "type": "item",
-      "sortid": 27,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_ingot",
@@ -1221,7 +1221,7 @@
     {
       "name": "BlackCopperBlock",
       "type": "block",
-      "sortid": 28,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_block",
@@ -1237,7 +1237,7 @@
     {
       "name": "BlackCopperBlockRecipe",
       "type": "recipe",
-      "sortid": 103,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_block_recipe",
@@ -1250,7 +1250,7 @@
     {
       "name": "BlackCopperBlockTransformRecipe",
       "type": "recipe",
-      "sortid": 104,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_block_transform_recipe",
@@ -1263,7 +1263,7 @@
     {
       "name": "BlackCopperArmor",
       "type": "armor",
-      "sortid": 34,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_armor",
@@ -1280,7 +1280,7 @@
     {
       "name": "BlackCopperArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 105,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_armor_helmet_recipe",
@@ -1293,7 +1293,7 @@
     {
       "name": "BlackCopperArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 106,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_armor_chestplate_recipe",
@@ -1306,7 +1306,7 @@
     {
       "name": "BlackCopperArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 107,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_armor_leggings_recipe",
@@ -1319,7 +1319,7 @@
     {
       "name": "BlackCopperArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 108,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_armor_boots_recipe",
@@ -1332,7 +1332,7 @@
     {
       "name": "SilverDust",
       "type": "item",
-      "sortid": 24,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_dust",
@@ -1346,7 +1346,7 @@
     {
       "name": "SilverOre",
       "type": "block",
-      "sortid": 22,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore",
@@ -1365,7 +1365,7 @@
     {
       "name": "SilverOreSmelting",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore_smelting",
@@ -1378,7 +1378,7 @@
     {
       "name": "SteelHammer",
       "type": "tool",
-      "sortid": 20,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_hammer",
@@ -1392,7 +1392,7 @@
     {
       "name": "SilverIngot",
       "type": "item",
-      "sortid": 23,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ingot",
@@ -1406,7 +1406,7 @@
     {
       "name": "SilverDustRecipe",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_dust_recipe",
@@ -1419,7 +1419,7 @@
     {
       "name": "SteelHammerRecipe",
       "type": "recipe",
-      "sortid": 111,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_hammer_recipe",
@@ -1432,7 +1432,7 @@
     {
       "name": "OresSilver",
       "type": "tag",
-      "sortid": 112,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ores_silver",
@@ -1445,7 +1445,7 @@
     {
       "name": "DustsSilver",
       "type": "tag",
-      "sortid": 113,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dusts_silver",
@@ -1458,7 +1458,7 @@
     {
       "name": "IngotsSilver",
       "type": "tag",
-      "sortid": 114,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ingots_silver",
@@ -1471,7 +1471,7 @@
     {
       "name": "GoldSilverMixedPowder",
       "type": "item",
-      "sortid": 26,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_silver_mixed_powder",
@@ -1485,7 +1485,7 @@
     {
       "name": "GoldSilverMixedPowderRecipe",
       "type": "recipe",
-      "sortid": 115,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_silver_mixed_powder_recipe",
@@ -1498,7 +1498,7 @@
     {
       "name": "BlackCopperIngotRecipe",
       "type": "recipe",
-      "sortid": 116,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_ingot_recipe",
@@ -1511,7 +1511,7 @@
     {
       "name": "DustsGoldSilverMixed",
       "type": "tag",
-      "sortid": 117,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dusts_gold_silver_mixed",
@@ -1524,7 +1524,7 @@
     {
       "name": "HammerTag",
       "type": "tag",
-      "sortid": 118,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hammer_tag",
@@ -1537,7 +1537,7 @@
     {
       "name": "EpicJourneyBuilding",
       "type": "tab",
-      "sortid": 119,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "epic_journey_building",
@@ -1548,7 +1548,7 @@
     {
       "name": "BlackCopperArmorEffect",
       "type": "procedure",
-      "sortid": 120,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_armor_effect",
@@ -1567,7 +1567,7 @@
     {
       "name": "BankTellerTrade3",
       "type": "procedure",
-      "sortid": 121,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bank_teller_trade_3",
@@ -1586,7 +1586,7 @@
     {
       "name": "BankTellerTrade4",
       "type": "procedure",
-      "sortid": 122,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bank_teller_trade_4",
@@ -1605,7 +1605,7 @@
     {
       "name": "GoldDust",
       "type": "item",
-      "sortid": 25,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_dust",
@@ -1619,7 +1619,7 @@
     {
       "name": "DustsGold",
       "type": "tag",
-      "sortid": 123,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dusts_gold",
@@ -1632,7 +1632,7 @@
     {
       "name": "GoldDustRecipe",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_dust_recipe",
@@ -1645,7 +1645,7 @@
     {
       "name": "SilverOreAdvancement",
       "type": "achievement",
-      "sortid": 125,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore_advancement",
@@ -1658,7 +1658,7 @@
     {
       "name": "BlackCopperPickaxe",
       "type": "tool",
-      "sortid": 30,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_pickaxe",
@@ -1672,7 +1672,7 @@
     {
       "name": "BlackCopperAxe",
       "type": "tool",
-      "sortid": 29,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_axe",
@@ -1686,7 +1686,7 @@
     {
       "name": "BlackCopperSword",
       "type": "tool",
-      "sortid": 31,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_sword",
@@ -1700,7 +1700,7 @@
     {
       "name": "BlackCopperShovel",
       "type": "tool",
-      "sortid": 32,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_shovel",
@@ -1714,7 +1714,7 @@
     {
       "name": "BlackCopperHoe",
       "type": "tool",
-      "sortid": 33,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_hoe",
@@ -1728,7 +1728,7 @@
     {
       "name": "BlackCopperPickaxeRecipe",
       "type": "recipe",
-      "sortid": 126,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_pickaxe_recipe",
@@ -1741,7 +1741,7 @@
     {
       "name": "BlackCopperAxeRecipe",
       "type": "recipe",
-      "sortid": 127,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_axe_recipe",
@@ -1754,7 +1754,7 @@
     {
       "name": "BlackCopperSwordRecipe",
       "type": "recipe",
-      "sortid": 128,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_sword_recipe",
@@ -1767,7 +1767,7 @@
     {
       "name": "BlackCopperShovelRecipe",
       "type": "recipe",
-      "sortid": 129,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_shovel_recipe",
@@ -1780,7 +1780,7 @@
     {
       "name": "BlackCopperHoeRecipe",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_hoe_recipe",
@@ -1793,7 +1793,7 @@
     {
       "name": "BlackCopperIngotAdvancement",
       "type": "achievement",
-      "sortid": 131,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_ingot_advancement",
@@ -1806,7 +1806,7 @@
     {
       "name": "BlackCopperSwordShiTiBeiGongJuJiZhongShi",
       "type": "procedure",
-      "sortid": 132,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_sword_attack",
@@ -1825,7 +1825,7 @@
     {
       "name": "BlackCopperShield",
       "type": "tool",
-      "sortid": 35,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_shield",
@@ -1840,7 +1840,7 @@
     {
       "name": "BlackCopperBow",
       "type": "item",
-      "sortid": 133,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_bow",
@@ -1884,7 +1884,7 @@
     {
       "name": "Skinner",
       "type": "tool",
-      "sortid": 8,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skinner",
@@ -1973,7 +1973,7 @@
     {
       "name": "Abattoir",
       "type": "tool",
-      "sortid": 9,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "abattoir",
@@ -2000,7 +2000,7 @@
     {
       "name": "TravelStaff",
       "type": "tool",
-      "sortid": 11,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "travel_staff",
@@ -2104,7 +2104,7 @@
     {
       "name": "Harvest",
       "type": "tool",
-      "sortid": 10,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "harvest",
@@ -2174,7 +2174,7 @@
     {
       "name": "ShepherdsStaff",
       "type": "tool",
-      "sortid": 12,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shepherds_staff",
@@ -2353,7 +2353,7 @@
     {
       "name": "LandAgent",
       "type": "livingentity",
-      "sortid": 39,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "land_agent",
@@ -2502,7 +2502,7 @@
     {
       "name": "BuildingSmallSizedWoodenHouse",
       "type": "item",
-      "sortid": 48,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "house_property_small_sized_wooden_house",
@@ -2586,7 +2586,7 @@
     {
       "name": "HousePropertyMediumSizedWoodenHouse",
       "type": "item",
-      "sortid": 49,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "house_property_medium_sized_wooden_house",
@@ -2635,7 +2635,7 @@
     {
       "name": "HousePropertyBigSizedWoodenHouse",
       "type": "item",
-      "sortid": 50,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "house_property_big_sized_wooden_house",
@@ -2804,7 +2804,7 @@
     {
       "name": "BuildingSalesCenter",
       "type": "item",
-      "sortid": 46,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "building_sales_center",
@@ -2833,7 +2833,7 @@
     {
       "name": "TheLost",
       "type": "animatedentity",
-      "sortid": 41,
+      "sortid": 42,
       "compiles": true,
       "locked_code": true,
       "registry_name": "the_lost",
@@ -2907,7 +2907,7 @@
     {
       "name": "HumanSoldierDeath",
       "type": "livingentity",
-      "sortid": 40,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "human_soldier_death",
@@ -2922,7 +2922,7 @@
     {
       "name": "NotesOfScout",
       "type": "item",
-      "sortid": 36,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "notes_of_scout",
@@ -3159,7 +3159,7 @@
     {
       "name": "LeafOfDeceivingDeath",
       "type": "curiosbauble",
-      "sortid": 37,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leaf_of_deceiving_death",
@@ -3228,7 +3228,7 @@
     {
       "name": "SporeAggregate",
       "type": "animatedentity",
-      "sortid": 42,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spore_aggregate",
@@ -3319,7 +3319,7 @@
     {
       "name": "PlanktonicSporeGroup",
       "type": "animatedentity",
-      "sortid": 43,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "planktonic_spore_group",
@@ -3393,7 +3393,7 @@
     {
       "name": "TheIniquityOfFakeGod",
       "type": "animatedentity",
-      "sortid": 44,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_iniquity_of_fake_god",
@@ -3575,7 +3575,7 @@
     {
       "name": "EpicJourneyMusic",
       "type": "musicdisc",
-      "sortid": 200,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "epic_journey_music",
@@ -3589,7 +3589,7 @@
     {
       "name": "PalaceOfFakeGod",
       "type": "structure",
-      "sortid": 201,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palace_of_fake_god",
@@ -3604,7 +3604,7 @@
     {
       "name": "DungeonThePalaceOfFakeGod",
       "type": "item",
-      "sortid": 202,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dungeon_the_palace_of_fake_god",
@@ -3618,7 +3618,7 @@
     {
       "name": "SpawnDungeonThePalaceOfFakeGod",
       "type": "procedure",
-      "sortid": 203,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spawn_dungeon_the_palace_of_fake_god",
@@ -3788,7 +3788,7 @@
       "gui.epic_journey.notes_of_scout_gui.label_vague_statethey_will_only_aimle": "vague state,they will only aimlessly gather together and ",
       "gui.epic_journey.notes_of_scout_gui.label_according_to_the_preliminary_obs": "According to the preliminary observation of the ",
       "gui.epic_journey.notes_of_scout_gui.label_accompanying_priest": "accompanying priest,the people of this country are ",
-      "item.epic_journey.dungeon_the_palace_of_fake_god": "§cDungeon:The Palace Of Fake God",
+      "item.epic_journey.dungeon_the_palace_of_fake_god": "§cDungeon:The Palace Of Fake God(WIP)",
       "item.epic_journey.planktonic_spore_group_spawn_egg": "Planktonic Spore Group Spawn Egg",
       "advancements.abattoir_advancement.title": "Enemies of Animals",
       "gui.epic_journey.land_agent_trade_gui.label_30": "30",
@@ -4061,7 +4061,7 @@
   "workspaceSettings": {
     "modid": "epic_journey",
     "modName": "Epic Journey",
-    "version": "1.20.1-0.0.5-alpha",
+    "version": "0.0.5",
     "description": "An unforgettable journey.",
     "author": "CJiangqiu",
     "websiteURL": "https://github.com/CJiangqiu/EpicJourney",

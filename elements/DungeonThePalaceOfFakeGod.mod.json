@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "§cDungeon:The Palace Of Fake God",
+    "name": "§cDungeon:The Palace Of Fake God(WIP)",
     "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:EpicJourneyBuilding"
@@ -27,7 +27,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "use locate command to find it"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

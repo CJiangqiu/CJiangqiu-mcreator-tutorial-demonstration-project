@@ -4,7 +4,7 @@ license="Mozilla Public License 2.0"
 
 [[mods]]
 modId="epic_journey"
-version="1.20.10.0.5"
+version="0.0.5"
 displayName="Epic Journey"
 displayURL="https://github.com/CJiangqiu/EpicJourney"
 logoFile="logo.png"

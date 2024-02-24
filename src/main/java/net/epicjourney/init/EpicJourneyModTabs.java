@@ -21,6 +21,7 @@ public class EpicJourneyModTabs {
 				tabData.accept(EpicJourneyModItems.TEST_BOSS_SPAWN_EGG.get());
 				tabData.accept(EpicJourneyModItems.TEST_WEAPON.get());
 				tabData.accept(EpicJourneyModItems.SCROLL.get());
+				tabData.accept(EpicJourneyModItems.EPIC_JOURNEY_MUSIC.get());
 				tabData.accept(EpicJourneyModItems.COPPER_COIN.get());
 				tabData.accept(EpicJourneyModItems.SILVER_COIN.get());
 				tabData.accept(EpicJourneyModItems.GOLD_COIN.get());
@@ -68,7 +69,6 @@ public class EpicJourneyModTabs {
 				tabData.accept(EpicJourneyModItems.SPORE_AGGREGATE_SPAWN_EGG.get());
 				tabData.accept(EpicJourneyModItems.PLANKTONIC_SPORE_GROUP_SPAWN_EGG.get());
 				tabData.accept(EpicJourneyModItems.THE_INIQUITY_OF_FAKE_GOD_SPAWN_EGG.get());
-				tabData.accept(EpicJourneyModItems.EPIC_JOURNEY_MUSIC.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> EPIC_JOURNEY_BUILDING = REGISTRY.register("epic_journey_building",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.epic_journey.epic_journey_building")).icon(() -> new ItemStack(EpicJourneyModItems.BUILDING_SPAWN_BANK.get())).displayItems((parameters, tabData) -> {

@@ -26,5 +26,13 @@
         "stream": false
       }
     ]
+  },
+  "epic_journey": {
+    "sounds": [
+      {
+        "name": "epic_journey:epic_journey",
+        "stream": true
+      }
+    ]
   }
 }

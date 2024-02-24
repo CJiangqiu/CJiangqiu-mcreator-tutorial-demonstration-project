@@ -18,4 +18,5 @@ public class EpicJourneyModSounds {
 	public static final RegistryObject<SoundEvent> THE_LOST_HURT = REGISTRY.register("the_lost_hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("epic_journey", "the_lost_hurt")));
 	public static final RegistryObject<SoundEvent> THE_LOST_DEATH = REGISTRY.register("the_lost_death", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("epic_journey", "the_lost_death")));
 	public static final RegistryObject<SoundEvent> THE_LOST_AMBIENT = REGISTRY.register("the_lost_ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("epic_journey", "the_lost_ambient")));
+	public static final RegistryObject<SoundEvent> EPIC_JOURNEY = REGISTRY.register("epic_journey", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("epic_journey", "epic_journey")));
 }

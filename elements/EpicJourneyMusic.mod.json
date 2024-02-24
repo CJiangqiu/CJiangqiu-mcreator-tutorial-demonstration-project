@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Epic Journey",
+    "rarity": "EPIC",
+    "texture": "the_epic_journey",
+    "description": "Epic Journey-by CJiangqiu",
+    "creativeTab": {
+      "value": "CUSTOM:EpicJourney"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "music": {
+      "value": "CUSTOM:epic_journey"
+    },
+    "lengthInTicks": 2620,
+    "analogOutput": 5
+  }
+}

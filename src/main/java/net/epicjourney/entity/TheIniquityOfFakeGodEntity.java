@@ -214,7 +214,7 @@ public class TheIniquityOfFakeGodEntity extends Monster implements GeoEntity {
 	@Override
 	protected void tickDeath() {
 		++this.deathTime;
-		if (this.deathTime == 50) {
+		if (this.deathTime == 38) {
 			this.remove(TheIniquityOfFakeGodEntity.RemovalReason.KILLED);
 			this.dropExperience();
 		}

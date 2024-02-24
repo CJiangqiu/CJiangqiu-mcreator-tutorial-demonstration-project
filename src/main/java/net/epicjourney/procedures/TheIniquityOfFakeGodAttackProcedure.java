@@ -50,8 +50,8 @@ public class TheIniquityOfFakeGodAttackProcedure {
 			if (sourceentity instanceof TheIniquityOfFakeGodEntity) {
 				((TheIniquityOfFakeGodEntity) sourceentity).setAnimation("animation.model.attack");
 			}
-			EpicJourneyMod.queueServerWork(40, () -> {
-				if (Math.sqrt(Math.pow(sourceentity.getX() - entity.getX(), 2) + Math.pow(sourceentity.getY() - entity.getY(), 2) + Math.pow(sourceentity.getZ() - entity.getZ(), 2)) <= 2
+			EpicJourneyMod.queueServerWork(60, () -> {
+				if (Math.sqrt(Math.pow(sourceentity.getX() - entity.getX(), 2) + Math.pow(sourceentity.getY() - entity.getY(), 2) + Math.pow(sourceentity.getZ() - entity.getZ(), 2)) <= 4
 						&& (sourceentity instanceof LivingEntity _entity ? _entity.hasLineOfSight(entity) : false)) {
 					if (!(entity instanceof LivingEntity && ((LivingEntity) entity).isUsingItem() && ((LivingEntity) entity).getUseItem().getItem().equals(Items.SHIELD))) {
 						entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)),

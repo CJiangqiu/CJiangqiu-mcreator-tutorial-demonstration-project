@@ -333,19 +333,6 @@
       }
     },
     {
-      "name": "Begins",
-      "type": "achievement",
-      "sortid": 66,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "begins",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/epic_journey/advancements/begins.json"
-        ]
-      }
-    },
-    {
       "name": "SteelAdvancements",
       "type": "achievement",
       "sortid": 67,
@@ -1861,26 +1848,6 @@
         "files": [
           "src/main/resources/assets/epic_journey/models/item/black_copper_bow.json",
           "src/main/java/net/epicjourney/item/BlackCopperBowItem.java"
-        ]
-      }
-    },
-    {
-      "name": "CheckRaceReputationValue",
-      "type": "procedure",
-      "sortid": 134,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "check_race_reputation_value",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/epicjourney/procedures/CheckRaceReputationValueProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
         ]
       }
     },
@@ -3591,6 +3558,93 @@
           }
         ]
       }
+    },
+    {
+      "name": "TheJourneyBegins",
+      "type": "achievement",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_journey_begins",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/advancements/the_journey_begins.json"
+        ]
+      }
+    },
+    {
+      "name": "EpicJourneyMusic",
+      "type": "musicdisc",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_journey_music",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_journey/models/item/epic_journey_music.json",
+          "src/main/java/net/epicjourney/item/EpicJourneyMusicItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PalaceOfFakeGod",
+      "type": "structure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palace_of_fake_god",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_journey/worldgen/structure_set/palace_of_fake_god.json",
+          "src/main/resources/data/epic_journey/worldgen/template_pool/palace_of_fake_god.json",
+          "src/main/resources/data/epic_journey/worldgen/structure/palace_of_fake_god.json"
+        ]
+      }
+    },
+    {
+      "name": "DungeonThePalaceOfFakeGod",
+      "type": "item",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dungeon_the_palace_of_fake_god",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/item/DungeonThePalaceOfFakeGodItem.java",
+          "src/main/resources/assets/epic_journey/models/item/dungeon_the_palace_of_fake_god.json"
+        ]
+      }
+    },
+    {
+      "name": "SpawnDungeonThePalaceOfFakeGod",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_dungeon_the_palace_of_fake_god",
+      "metadata": {
+        "files": [
+          "src/main/java/net/epicjourney/procedures/SpawnDungeonThePalaceOfFakeGodProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -3638,6 +3692,14 @@
       ],
       "category": "hostile",
       "subtitle": ""
+    },
+    {
+      "name": "epic_journey",
+      "files": [
+        "epic_journey"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -3656,6 +3718,7 @@
       "gui.epic_journey.land_agent_trade_gui.button_trade2": "Trade",
       "advancements.abattoir_advancement.descr": "Get an abattoir",
       "gui.epic_journey.notes_of_scout_gui.label_the_rain_has_extinguished_the_bo": "The rain has extinguished the bonfire, it’s cold, so cold. ",
+      "item.epic_journey.epic_journey_music": "Epic Journey",
       "advancements.purse_advancement.descr": "Make a purse",
       "gui.epic_journey.notes_of_scout_gui.label_wander_but_when_attacked_they": "wander, but when attacked, they will fiercely ",
       "advancements.black_copper_ingot_advancement.descr": "Make a black copper ingot",
@@ -3725,6 +3788,7 @@
       "gui.epic_journey.notes_of_scout_gui.label_vague_statethey_will_only_aimle": "vague state,they will only aimlessly gather together and ",
       "gui.epic_journey.notes_of_scout_gui.label_according_to_the_preliminary_obs": "According to the preliminary observation of the ",
       "gui.epic_journey.notes_of_scout_gui.label_accompanying_priest": "accompanying priest,the people of this country are ",
+      "item.epic_journey.dungeon_the_palace_of_fake_god": "§cDungeon:The Palace Of Fake God",
       "item.epic_journey.planktonic_spore_group_spawn_egg": "Planktonic Spore Group Spawn Egg",
       "advancements.abattoir_advancement.title": "Enemies of Animals",
       "gui.epic_journey.land_agent_trade_gui.label_30": "30",
@@ -3771,7 +3835,6 @@
       "item_group.epic_journey.epic_journey": "§5Epic Journey",
       "item.epic_journey.black_copper_bow": "Black Copper Bow",
       "item.epic_journey.black_copper_armor_boots": "§eBlack Copper Boots",
-      "advancements.begins.title": "The journey begins",
       "item.epic_journey.human_soldier_death_spawn_egg": "Dead Imperial Soldiers Spawn Egg",
       "item.epic_journey.building_spawn_bank": "Building:Bank",
       "gui.epic_journey.notes_of_scout_gui_2.label_at_this_time": "at this time,  my eyelids are getting heavier and heavier… ",
@@ -3781,10 +3844,12 @@
       "item.epic_journey.steel_axe": "Steel Axe",
       "item.epic_journey.steel_ingot": "Steel Ingot",
       "gui.epic_journey.notes_of_scout_gui.label_just_like_the_empires_most_impo": "Just like the empire’s most important tributary state,",
+      "advancements.the_journey_begins.title": "The Journey Begins",
       "item.epic_journey.notes_of_scout": "Notes of Scout",
       "advancements.skinner_advancement.title": "Skin of Pain",
       "item.epic_journey.test_weapon": "Test Weapon",
       "item.epic_journey.house_property_big_sized_wooden_house": "House Property:Big Sized Wooden House",
+      "subtitles.epic_journey": "",
       "item.epic_journey.harvest": "§eHarvest",
       "item.epic_journey.silver_dust": "Silver Dust",
       "advancements.skinner_advancement.descr": "Get a skinner",
@@ -3792,19 +3857,20 @@
       "advancements.shepherd_staff_advancement.title": "Herd",
       "item.epic_journey.the_lost_spawn_egg": "The Lost Spawn Egg",
       "gui.epic_journey.notes_of_scout_gui_2.label_may_i_be_blessed_no_matter_whic": "May I be blessed, no matter which god, I don’t want to",
-      "advancements.begins.descr": "When you wake up, you find a scroll beside you",
       "advancements.gold_coin_advancement.descr": "Get a gold coin",
       "item.epic_journey.building_underground_tomb": "Dungeon:Underground Tomb",
       "item.epic_journey.silver_ingot": "Silver Ingot",
       "entity.epic_journey.the_iniquity_of_fake_god": "The Iniquity of Fake God",
       "item.epic_journey.black_copper_shield": "§eBlack Copper Shield",
       "advancements.copper_coin_advancement.title": "Copper Coin",
+      "item.epic_journey.epic_journey_music.desc": "Epic Journey-by CJiangqiu",
       "item.epic_journey.black_copper_axe": "§eBlack Copper Axe",
       "gui.epic_journey.notes_of_scout_gui.label_counterattack_i_privately_call": "counterattack, I privately call them ‘the lost’.",
       "gui.epic_journey.bank_teller_trade_gui.label_32": "32",
       "item.epic_journey.house_property_medium_sized_wooden_house": "House Property:Medium Sized Wooden House",
       "item.epic_journey.building_sales_center": "Building:Sales Center",
       "item.epic_journey.gold_silver_mixed_powder": "Gold-Silver Mixed Powder",
+      "advancements.the_journey_begins.descr": "When you wake up, you find a scroll beside you",
       "item.epic_journey.silver_coin": "Silver Coin",
       "item.epic_journey.steel_armor_boots": "Steel Boots",
       "item.epic_journey.black_copper_sword": "§eBlack Copper Sword",
@@ -3827,6 +3893,7 @@
       "gui.epic_journey.land_agent_trade_gui.button_trade2": "交易",
       "advancements.abattoir_advancement.descr": "获得一把屠宰场",
       "gui.epic_journey.notes_of_scout_gui.label_the_rain_has_extinguished_the_bo": "雨水浇灭了篝火，冷，好冷。",
+      "item.epic_journey.epic_journey_music": "Epic Journey",
       "advancements.purse_advancement.descr": "制作一个卡包",
       "gui.epic_journey.notes_of_scout_gui.label_wander_but_when_attacked_they": "但在受到攻击时，则会猛烈的反击，",
       "advancements.black_copper_ingot_advancement.descr": "制作一个乌铜锭",
@@ -3896,6 +3963,7 @@
       "gui.epic_journey.notes_of_scout_gui.label_vague_statethey_will_only_aimle": "只会漫无目的的集结在一起游荡，",
       "gui.epic_journey.notes_of_scout_gui.label_according_to_the_preliminary_obs": "根据随行教士的初步观察，",
       "gui.epic_journey.notes_of_scout_gui.label_accompanying_priest": "这个国家的人们被一种奇特的孢子寄生，",
+      "item.epic_journey.dungeon_the_palace_of_fake_god": "§c地牢：伪神的宫殿",
       "item.epic_journey.planktonic_spore_group_spawn_egg": "浮游孢子群生成蛋",
       "advancements.abattoir_advancement.title": "动物之敌",
       "gui.epic_journey.land_agent_trade_gui.label_30": "30",
@@ -3942,7 +4010,6 @@
       "item_group.epic_journey.epic_journey": "§5史诗征程",
       "item.epic_journey.black_copper_bow": "乌铜弓",
       "item.epic_journey.black_copper_armor_boots": "§e乌铜靴",
-      "advancements.begins.title": "征程开始了",
       "item.epic_journey.human_soldier_death_spawn_egg": "死去的帝国士兵生成蛋",
       "item.epic_journey.building_spawn_bank": "建筑：银行",
       "gui.epic_journey.notes_of_scout_gui_2.label_at_this_time": "眼皮越来越沉了...",
@@ -3952,10 +4019,12 @@
       "item.epic_journey.steel_axe": "钢斧",
       "item.epic_journey.steel_ingot": "钢锭",
       "gui.epic_journey.notes_of_scout_gui.label_just_like_the_empires_most_impo": "就如帝国最重要的纳贡属国一样，",
+      "advancements.the_journey_begins.title": "征程开始了",
       "item.epic_journey.notes_of_scout": "侦察兵的笔记",
       "advancements.skinner_advancement.title": "痛苦之皮",
       "item.epic_journey.test_weapon": "Test Weapon",
       "item.epic_journey.house_property_big_sized_wooden_house": "房产：大型木屋",
+      "subtitles.epic_journey": "",
       "item.epic_journey.harvest": "§e收获",
       "item.epic_journey.silver_dust": "银尘",
       "advancements.skinner_advancement.descr": "获得一把剥皮者",
@@ -3963,19 +4032,20 @@
       "advancements.shepherd_staff_advancement.title": "牧群",
       "item.epic_journey.the_lost_spawn_egg": "迷失者生成蛋",
       "gui.epic_journey.notes_of_scout_gui_2.label_may_i_be_blessed_no_matter_whic": "愿我被保佑，无论哪位神明，",
-      "advancements.begins.descr": "当你醒来时，你发现了身边有一个卷轴",
       "advancements.gold_coin_advancement.descr": "获得一个金币",
       "item.epic_journey.building_underground_tomb": "地牢：地下坟墓",
       "item.epic_journey.silver_ingot": "银锭",
       "entity.epic_journey.the_iniquity_of_fake_god": "伪神之孽",
       "item.epic_journey.black_copper_shield": "§e乌铜盾",
       "advancements.copper_coin_advancement.title": "铜币",
+      "item.epic_journey.epic_journey_music.desc": "Epic Journey-by CJiangqiu",
       "item.epic_journey.black_copper_axe": "§e乌铜斧",
       "gui.epic_journey.notes_of_scout_gui.label_counterattack_i_privately_call": "我私自把他们称为“迷失者“。",
       "gui.epic_journey.bank_teller_trade_gui.label_32": "32",
       "item.epic_journey.house_property_medium_sized_wooden_house": "房产：中型木屋",
       "item.epic_journey.building_sales_center": "建筑：售楼中心",
       "item.epic_journey.gold_silver_mixed_powder": "金-银混合粉末",
+      "advancements.the_journey_begins.descr": "当你醒来时，你发现了一个卷轴在你的身边",
       "item.epic_journey.silver_coin": "银币",
       "item.epic_journey.steel_armor_boots": "钢靴",
       "item.epic_journey.black_copper_sword": "§e乌铜剑",

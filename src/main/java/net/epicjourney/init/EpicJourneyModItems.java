@@ -43,6 +43,8 @@ import net.epicjourney.item.GoldSilverMixedPowderItem;
 import net.epicjourney.item.GoldDustItem;
 import net.epicjourney.item.GoldCoinItem;
 import net.epicjourney.item.ExchangeItem;
+import net.epicjourney.item.EpicJourneyMusicItem;
+import net.epicjourney.item.DungeonThePalaceOfFakeGodItem;
 import net.epicjourney.item.CopperCoinItem;
 import net.epicjourney.item.BuildingUndergroundTombItem;
 import net.epicjourney.item.BuildingSpawnBankItem;
@@ -123,6 +125,8 @@ public class EpicJourneyModItems {
 	public static final RegistryObject<Item> HOUSE_PROPERTY_BIG_SIZED_WOODEN_HOUSE = REGISTRY.register("house_property_big_sized_wooden_house", () -> new HousePropertyBigSizedWoodenHouseItem());
 	public static final RegistryObject<Item> EXCHANGE = REGISTRY.register("exchange", () -> new ExchangeItem());
 	public static final RegistryObject<Item> BLACK_COPPER_BOW = REGISTRY.register("black_copper_bow", () -> new BlackCopperBowItem());
+	public static final RegistryObject<Item> EPIC_JOURNEY_MUSIC = REGISTRY.register("epic_journey_music", () -> new EpicJourneyMusicItem());
+	public static final RegistryObject<Item> DUNGEON_THE_PALACE_OF_FAKE_GOD = REGISTRY.register("dungeon_the_palace_of_fake_god", () -> new DungeonThePalaceOfFakeGodItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

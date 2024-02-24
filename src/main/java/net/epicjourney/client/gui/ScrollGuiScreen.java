@@ -51,7 +51,7 @@ public class ScrollGuiScreen extends AbstractContainerScreen<ScrollGuiMenu> {
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 
-		guiGraphics.blit(new ResourceLocation("epic_journey:textures/screens/scroll1.png"), this.leftPos + -1, this.topPos + -3, 0, 0, 420, 220, 420, 220);
+		guiGraphics.blit(new ResourceLocation("epic_journey:textures/screens/scroll.png"), this.leftPos + 39, this.topPos + 6, 0, 0, 360, 180, 360, 180);
 
 		RenderSystem.disableBlend();
 	}

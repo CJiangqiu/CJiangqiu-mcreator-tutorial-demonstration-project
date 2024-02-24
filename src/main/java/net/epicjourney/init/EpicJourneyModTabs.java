@@ -68,6 +68,7 @@ public class EpicJourneyModTabs {
 				tabData.accept(EpicJourneyModItems.SPORE_AGGREGATE_SPAWN_EGG.get());
 				tabData.accept(EpicJourneyModItems.PLANKTONIC_SPORE_GROUP_SPAWN_EGG.get());
 				tabData.accept(EpicJourneyModItems.THE_INIQUITY_OF_FAKE_GOD_SPAWN_EGG.get());
+				tabData.accept(EpicJourneyModItems.EPIC_JOURNEY_MUSIC.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> EPIC_JOURNEY_BUILDING = REGISTRY.register("epic_journey_building",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.epic_journey.epic_journey_building")).icon(() -> new ItemStack(EpicJourneyModItems.BUILDING_SPAWN_BANK.get())).displayItems((parameters, tabData) -> {
@@ -77,6 +78,7 @@ public class EpicJourneyModTabs {
 				tabData.accept(EpicJourneyModItems.HOUSE_PROPERTY_SMALL_SIZED_WOODEN_HOUSE.get());
 				tabData.accept(EpicJourneyModItems.HOUSE_PROPERTY_MEDIUM_SIZED_WOODEN_HOUSE.get());
 				tabData.accept(EpicJourneyModItems.HOUSE_PROPERTY_BIG_SIZED_WOODEN_HOUSE.get());
+				tabData.accept(EpicJourneyModItems.DUNGEON_THE_PALACE_OF_FAKE_GOD.get());
 			})
 
 					.build());
